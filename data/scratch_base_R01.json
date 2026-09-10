@@ -1,0 +1,28 @@
+{
+  "case": "scratch_base_R01",
+  "amplitude_A": 0.0,
+  "beta": 0.0,
+  "frequency_per_ps": 0.0,
+  "phase_offset": 0.0,
+  "source_log": "/Volumes/CuTaData/CuTa-results/runs/scratch_base_R01/logs/lammps.log",
+  "log_sha256": "68d716bbbb0fe29d3174321ac6c520736c4613888822867f46363bf9a3b6bead",
+  "structure_sha256": "d1536e2cace36c30a77e64cae97cd63e5b776e28a4ef7e30f6fff8b5402c09dc",
+  "source_launch_sha256": "7b0f763251b396b0dee7ca8564e40ca56eac6aee081edfc35526aaf913d94e1f",
+  "completion_marker": "NONOSCILLATORY_SCRATCH_COMPLETE case=scratch_base_R01 arm=paper depth=10.0 vs=0.3 length=276.0",
+  "launch_completed": false,
+  "sine_position_max_error_A": 0.0,
+  "sample_interval_ps": 0.05000000000000426,
+  "lj_parameters": {
+    "CuC": [
+      0.05477,
+      2.168,
+      5.4
+    ],
+    "TaC": [
+      0.13,
+      2.86575,
+      7.164
+    ]
+  },
+  "samples_sha256": "5ad9e0ffac14f3d15c02fffb4c36fbf8b66a4755a2529d0e9843923681d44f65"
+}

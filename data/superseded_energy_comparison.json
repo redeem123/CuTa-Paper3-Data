@@ -1,0 +1,13 @@
+{
+  "source": "evidence/S6_R01/lammps.log",
+  "source_kind": "same thermo force records as primary analysis",
+  "clipped_bounds_ps": [
+    294.449,
+    694.021
+  ],
+  "clipped_duration_ps": 399.57199999999995,
+  "clipped_work_eV": 8726.663624235196,
+  "reported_global_energy_change_eV": 5059.100000000093,
+  "residual_eV": 3667.563624235103,
+  "interpretation": "not independently measured heat; global thermo energy is not asserted to be workpiece-only internal energy"
+}

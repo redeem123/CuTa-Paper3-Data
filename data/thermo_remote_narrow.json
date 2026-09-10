@@ -1,0 +1,28 @@
+{
+  "case": "thermo_remote_narrow",
+  "amplitude_A": 1.0,
+  "beta": 2.0,
+  "frequency_per_ps": 0.0954929658551372,
+  "phase_offset": -21.249555921524887,
+  "source_log": "/Volumes/CuTaData/CuTa-results/runs/thermo_remote_narrow/logs/lammps.log",
+  "log_sha256": "1134468b2a4f4eea6f75cac07ffe365cd87fdc5084a67e1ba59577455df794a5",
+  "structure_sha256": "d1536e2cace36c30a77e64cae97cd63e5b776e28a4ef7e30f6fff8b5402c09dc",
+  "source_launch_sha256": "aaec5195ec1b6f25f0d14cf9699fcd188d5a8d4eaec44609b1482865464d726e",
+  "completion_marker": "OSCILLATORY_SCRATCH_COMPLETE case=thermo_remote_narrow arm=paper alpha=0.1 beta=2.0 h0=10.0 vs=0.3 length=160.0",
+  "launch_completed": true,
+  "sine_position_max_error_A": 5.117789669384365e-06,
+  "sample_interval_ps": 0.1039999999999992,
+  "lj_parameters": {
+    "CuC": [
+      0.05477,
+      2.168,
+      5.4
+    ],
+    "TaC": [
+      0.13,
+      2.86575,
+      7.164
+    ]
+  },
+  "samples_sha256": "b47e66048db5eac5bcf439636bb110abe8b2afd81c3017f1325c68d1a71dd7c4"
+}

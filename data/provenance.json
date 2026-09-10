@@ -1,0 +1,338 @@
+[
+  {
+    "case": "scratch_base_R01",
+    "amplitude_A": 0.0,
+    "beta": 0.0,
+    "frequency_per_ps": 0.0,
+    "phase_offset": 0.0,
+    "source_log": "/Volumes/CuTaData/CuTa-results/runs/scratch_base_R01/logs/lammps.log",
+    "log_sha256": "68d716bbbb0fe29d3174321ac6c520736c4613888822867f46363bf9a3b6bead",
+    "structure_sha256": "d1536e2cace36c30a77e64cae97cd63e5b776e28a4ef7e30f6fff8b5402c09dc",
+    "source_launch_sha256": "7b0f763251b396b0dee7ca8564e40ca56eac6aee081edfc35526aaf913d94e1f",
+    "completion_marker": "NONOSCILLATORY_SCRATCH_COMPLETE case=scratch_base_R01 arm=paper depth=10.0 vs=0.3 length=276.0",
+    "launch_completed": false,
+    "sine_position_max_error_A": 0.0,
+    "sample_interval_ps": 0.05000000000000426,
+    "lj_parameters": {
+      "CuC": [
+        0.05477,
+        2.168,
+        5.4
+      ],
+      "TaC": [
+        0.13,
+        2.86575,
+        7.164
+      ]
+    },
+    "samples_sha256": "5ad9e0ffac14f3d15c02fffb4c36fbf8b66a4755a2529d0e9843923681d44f65"
+  },
+  {
+    "case": "scratch_base_R02",
+    "amplitude_A": 0.0,
+    "beta": 0.0,
+    "frequency_per_ps": 0.0,
+    "phase_offset": 0.0,
+    "source_log": "/Volumes/CuTaData/CuTa-results/runs/scratch_base_R02/logs/lammps.log",
+    "log_sha256": "7f7ba0effa642d969d242be6709c41534f9969477e51e4550c2d3b2b07d5f4c9",
+    "structure_sha256": "65d0a9ec493bb85715919678ca7109c69790d0f389c6db1a13238473af931433",
+    "source_launch_sha256": "3ca097458f6755e65596c4bf29e464ae69f544575870e631bd2198e2ad5c4172",
+    "completion_marker": "NONOSCILLATORY_SCRATCH_COMPLETE case=scratch_base_R02 arm=paper depth=10.0 vs=0.3 length=276.0",
+    "launch_completed": true,
+    "sine_position_max_error_A": 0.0,
+    "sample_interval_ps": 0.05000000000000426,
+    "lj_parameters": {
+      "CuC": [
+        0.05477,
+        2.168,
+        5.4
+      ],
+      "TaC": [
+        0.13,
+        2.86575,
+        7.164
+      ]
+    },
+    "samples_sha256": "81ec27e7bb041bea99ac2b865c226272a90193ea414d9399d6776be3c07aa960"
+  },
+  {
+    "case": "S1_R01",
+    "amplitude_A": 1.0,
+    "beta": 0.5,
+    "frequency_per_ps": 0.0238732414637843,
+    "phase_offset": -19.44955592153247,
+    "source_log": "/Volumes/CuTaData/CuTa-results/runs/S1_R01/logs/lammps.log",
+    "log_sha256": "3327b6d1478160febb2b3c124830fe68ac8db8e9c2443143de3ea57ba2e9cf6a",
+    "structure_sha256": "d1536e2cace36c30a77e64cae97cd63e5b776e28a4ef7e30f6fff8b5402c09dc",
+    "source_launch_sha256": "39411cea5bf1f0f7fc60622d59682b2e79c2ed83fe67e35e5c9c3e4868e15189",
+    "completion_marker": "OSCILLATORY_SCRATCH_COMPLETE case=S1_R01 arm=paper alpha=0.1 beta=0.5 h0=10.0 vs=0.3 length=229.0",
+    "launch_completed": true,
+    "sine_position_max_error_A": 5.069599154694515e-06,
+    "sample_interval_ps": 0.41800000000000637,
+    "lj_parameters": {
+      "CuC": [
+        0.05477,
+        2.168,
+        5.4
+      ],
+      "TaC": [
+        0.13,
+        2.86575,
+        7.164
+      ]
+    },
+    "samples_sha256": "3bab0707ef38cf76a8999233ca108752761dbd9edba38d511706649575cbbbf1"
+  },
+  {
+    "case": "S1_R02",
+    "amplitude_A": 1.0,
+    "beta": 0.5,
+    "frequency_per_ps": 0.0238732414637843,
+    "phase_offset": -19.44955592153247,
+    "source_log": "/Volumes/CuTaData/CuTa-results/runs/S1_R02/logs/lammps.log",
+    "log_sha256": "df7a17d6bbea640ab40f663591e04f99838a21a894bfa580fdc3e142ae9237a2",
+    "structure_sha256": "65d0a9ec493bb85715919678ca7109c69790d0f389c6db1a13238473af931433",
+    "source_launch_sha256": "142c21da4909d92755bd5889df7b3ec8365899b711aa21aa3ea89f225b0af836",
+    "completion_marker": "OSCILLATORY_SCRATCH_COMPLETE case=S1_R02 arm=paper alpha=0.1 beta=0.5 h0=10.0 vs=0.3 length=229.0",
+    "launch_completed": true,
+    "sine_position_max_error_A": 5.073128590993292e-06,
+    "sample_interval_ps": 0.41800000000000637,
+    "lj_parameters": {
+      "CuC": [
+        0.05477,
+        2.168,
+        5.4
+      ],
+      "TaC": [
+        0.13,
+        2.86575,
+        7.164
+      ]
+    },
+    "samples_sha256": "fc63c0dab0f4dff5e424f4ac9fd38827294d97fc9e98da8135d0dfb8c02938c3"
+  },
+  {
+    "case": "S2_R01",
+    "amplitude_A": 1.0,
+    "beta": 2.0,
+    "frequency_per_ps": 0.0954929658551372,
+    "phase_offset": -21.249555921524887,
+    "source_log": "/Volumes/CuTaData/CuTa-results/runs/S2_R01/logs/lammps.log",
+    "log_sha256": "1dfe5ccb68f49b33895f708dd05c1620b69e1af0723df1deb07cf7960e40517e",
+    "structure_sha256": "d1536e2cace36c30a77e64cae97cd63e5b776e28a4ef7e30f6fff8b5402c09dc",
+    "source_launch_sha256": "6b6f4a997b6d0ca49c2db5f4b3ca720f2567d26dae349709f056882f8c12e67d",
+    "completion_marker": "OSCILLATORY_SCRATCH_COMPLETE case=S2_R01 arm=paper alpha=0.1 beta=2.0 h0=10.0 vs=0.3 length=160.0",
+    "launch_completed": true,
+    "sine_position_max_error_A": 5.117789669384365e-06,
+    "sample_interval_ps": 0.1039999999999992,
+    "lj_parameters": {
+      "CuC": [
+        0.05477,
+        2.168,
+        5.4
+      ],
+      "TaC": [
+        0.13,
+        2.86575,
+        7.164
+      ]
+    },
+    "samples_sha256": "2044dc3fbdd4fb1a2033eeacf4067edb0a4bc24dd0e5ee991a329b67850c452d"
+  },
+  {
+    "case": "S2_R02",
+    "amplitude_A": 1.0,
+    "beta": 2.0,
+    "frequency_per_ps": 0.0954929658551372,
+    "phase_offset": -21.249555921529122,
+    "source_log": "/Volumes/CuTaData/CuTa-results/runs/S2_R02/logs/lammps.log",
+    "log_sha256": "246074f58e8f50b90d108336e7d46ff2503f5938721cf7827a2c7de7263338c9",
+    "structure_sha256": "65d0a9ec493bb85715919678ca7109c69790d0f389c6db1a13238473af931433",
+    "source_launch_sha256": "b23e1dfc424baf912b017ad55451a8a111644d5e0b467182954e2db50dbeea0a",
+    "completion_marker": "OSCILLATORY_SCRATCH_COMPLETE case=S2_R02 recovered_from=500000 alpha=0.1 beta=2.0 h0=10.0 vs=0.3 length=160.0",
+    "launch_completed": null,
+    "sine_position_max_error_A": 5.071615987617406e-06,
+    "sample_interval_ps": 0.1039999999999992,
+    "lj_parameters": {
+      "CuC": [
+        0.05477,
+        2.168,
+        5.4
+      ],
+      "TaC": [
+        0.13,
+        2.86575,
+        7.164
+      ]
+    },
+    "samples_sha256": "a8dc996bf10633f4626faaf1cb04fe138650418076b3cb126db938c1ed5d5f79"
+  },
+  {
+    "case": "S4_R01",
+    "amplitude_A": 2.5,
+    "beta": 1.0,
+    "frequency_per_ps": 0.01909859317102744,
+    "phase_offset": -19.329555921456574,
+    "source_log": "/Volumes/CuTaData/CuTa-results/runs/S4_R01/logs/lammps.log",
+    "log_sha256": "c6747ed1db73fdd2e7b37f9713b3f6c319b9eb67d71371c864a815910ae4c7eb",
+    "structure_sha256": "d1536e2cace36c30a77e64cae97cd63e5b776e28a4ef7e30f6fff8b5402c09dc",
+    "source_launch_sha256": "1878bd69143fb8d0fa5cb90bead16a5efef9482cd799a56e9c2b6cddebf9c6dc",
+    "completion_marker": "OSCILLATORY_SCRATCH_COMPLETE case=S4_R01 arm=paper alpha=0.25 beta=1.0 h0=10.0 vs=0.3 length=276.0",
+    "launch_completed": true,
+    "sine_position_max_error_A": 5.028841087550973e-06,
+    "sample_interval_ps": 0.5230000000000246,
+    "lj_parameters": {
+      "CuC": [
+        0.05477,
+        2.168,
+        5.4
+      ],
+      "TaC": [
+        0.13,
+        2.86575,
+        7.164
+      ]
+    },
+    "samples_sha256": "c74cb8f086f83241e0c4b59f68b4316f9966ac51edc54956e6ea128e1b0776ba"
+  },
+  {
+    "case": "S4_R02",
+    "amplitude_A": 2.5,
+    "beta": 1.0,
+    "frequency_per_ps": 0.01909859317102744,
+    "phase_offset": -19.329555921456574,
+    "source_log": "/Volumes/CuTaData/CuTa-results/runs/S4_R02/logs/lammps.log",
+    "log_sha256": "fa18af97852555d2a4f88cec01667b2820cc6d5e9e405fdbda531088ea0cb31c",
+    "structure_sha256": "65d0a9ec493bb85715919678ca7109c69790d0f389c6db1a13238473af931433",
+    "source_launch_sha256": "b2d29723b0a69f3f5bf6e01a36630dffe67458a4c5889bdec495cd6652073167",
+    "completion_marker": "OSCILLATORY_SCRATCH_COMPLETE case=S4_R02 arm=paper alpha=0.25 beta=1.0 h0=10.0 vs=0.3 length=276.0",
+    "launch_completed": true,
+    "sine_position_max_error_A": 5.136227599678023e-06,
+    "sample_interval_ps": 0.5230000000000246,
+    "lj_parameters": {
+      "CuC": [
+        0.05477,
+        2.168,
+        5.4
+      ],
+      "TaC": [
+        0.13,
+        2.86575,
+        7.164
+      ]
+    },
+    "samples_sha256": "28162e8552230c4644e5496b46c9adf3f0d54c4b0d6d3e3cd5a87b1576c782dd"
+  },
+  {
+    "case": "S5_R01",
+    "amplitude_A": 2.5,
+    "beta": 2.0,
+    "frequency_per_ps": 0.03819718634205488,
+    "phase_offset": -19.80955592152455,
+    "source_log": "/Volumes/CuTaData/CuTa-results/runs/S5_R01/logs/lammps.log",
+    "log_sha256": "55c0fa93bb4df7ef32ccd997611dd77f01483cc4843ff16e1e5ccfa168fdb80a",
+    "structure_sha256": "d1536e2cace36c30a77e64cae97cd63e5b776e28a4ef7e30f6fff8b5402c09dc",
+    "source_launch_sha256": "508616d81447d45e9bf2c7e39770905f1bc2fe6622da6e11e6d7476f8d5bf5a9",
+    "completion_marker": "OSCILLATORY_SCRATCH_COMPLETE case=S5_R01 arm=paper alpha=0.25 beta=2.0 h0=10.0 vs=0.3 length=160.0",
+    "launch_completed": true,
+    "sine_position_max_error_A": 5.201089010142823e-06,
+    "sample_interval_ps": 0.2609999999999957,
+    "lj_parameters": {
+      "CuC": [
+        0.05477,
+        2.168,
+        5.4
+      ],
+      "TaC": [
+        0.13,
+        2.86575,
+        7.164
+      ]
+    },
+    "samples_sha256": "a621f24969c981f676757c78a39f4abd49c6e3244d69eb2e5277d3b2764c13d1"
+  },
+  {
+    "case": "S5_R02",
+    "amplitude_A": 2.5,
+    "beta": 2.0,
+    "frequency_per_ps": 0.03819718634205488,
+    "phase_offset": -19.80955592152455,
+    "source_log": "/Volumes/CuTaData/CuTa-results/runs/S5_R02/logs/lammps.log",
+    "log_sha256": "c6e10b1f6227c979f2348617ce85067d15ddb84cb3c0c620c2eead142decaa80",
+    "structure_sha256": "65d0a9ec493bb85715919678ca7109c69790d0f389c6db1a13238473af931433",
+    "source_launch_sha256": "6dc343c77c48b062569d540fb996d3247ae2ebf15853f3c16ce6bea4910ed553",
+    "completion_marker": "OSCILLATORY_SCRATCH_COMPLETE case=S5_R02 arm=paper alpha=0.25 beta=2.0 h0=10.0 vs=0.3 length=160.0",
+    "launch_completed": true,
+    "sine_position_max_error_A": 5.017905721160787e-06,
+    "sample_interval_ps": 0.2609999999999957,
+    "lj_parameters": {
+      "CuC": [
+        0.05477,
+        2.168,
+        5.4
+      ],
+      "TaC": [
+        0.13,
+        2.86575,
+        7.164
+      ]
+    },
+    "samples_sha256": "28328cbdf15e88424ac5f86cf76b1d5d386b1de216244be7f36e677ecce2aad7"
+  },
+  {
+    "case": "S6_R01",
+    "amplitude_A": 5.0,
+    "beta": 2.0,
+    "frequency_per_ps": 0.01909859317102744,
+    "phase_offset": -19.329555921456574,
+    "source_log": "/Volumes/CuTaData/CuTa-results/runs/S6_R01/logs/lammps.log",
+    "log_sha256": "ce0dd84a4c3debda632c114bc87e9acc32775858a8d92628f197380dbfffe7f4",
+    "structure_sha256": "d1536e2cace36c30a77e64cae97cd63e5b776e28a4ef7e30f6fff8b5402c09dc",
+    "source_launch_sha256": "cb56672bebc53865581a53bb55394e35f754b6749f68626a294bb1b70b9a2567",
+    "completion_marker": "OSCILLATORY_SCRATCH_COMPLETE case=S6_R01 arm=paper alpha=0.5 beta=2.0 h0=10.0 vs=0.3 length=276.0",
+    "launch_completed": true,
+    "sine_position_max_error_A": 5.165894009451222e-06,
+    "sample_interval_ps": 0.5230000000000246,
+    "lj_parameters": {
+      "CuC": [
+        0.05477,
+        2.168,
+        5.4
+      ],
+      "TaC": [
+        0.13,
+        2.86575,
+        7.164
+      ]
+    },
+    "samples_sha256": "7b968c26e7895ccbe752bd757b977903cde334227bac42c5571befbf366211a4"
+  },
+  {
+    "case": "S6_R02",
+    "amplitude_A": 5.0,
+    "beta": 2.0,
+    "frequency_per_ps": 0.01909859317102744,
+    "phase_offset": -19.329555921456574,
+    "source_log": "/Volumes/CuTaData/CuTa-results/runs/S6_R02/logs/lammps.log",
+    "log_sha256": "7b477d95725500b17e40ff78de855d0ecd4371152bc75e0938964eb2f4c5b68b",
+    "structure_sha256": "65d0a9ec493bb85715919678ca7109c69790d0f389c6db1a13238473af931433",
+    "source_launch_sha256": "16f2b14b0f048a0f204a8105854a4fd5c7d0b37deaa7b250e63c160814121ee4",
+    "completion_marker": "OSCILLATORY_SCRATCH_COMPLETE case=S6_R02 arm=paper alpha=0.5 beta=2.0 h0=10.0 vs=0.3 length=276.0",
+    "launch_completed": true,
+    "sine_position_max_error_A": 5.235526629121523e-06,
+    "sample_interval_ps": 0.5230000000000246,
+    "lj_parameters": {
+      "CuC": [
+        0.05477,
+        2.168,
+        5.4
+      ],
+      "TaC": [
+        0.13,
+        2.86575,
+        7.164
+      ]
+    },
+    "samples_sha256": "e237c99464a0ff9b6d052e73a161b9fe7418184a9a247242b843d6eb7e189085"
+  }
+]

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this version of the data and analysis supporting Paper 3."
+type: dataset
+title: "Cu-Ta nanoscratching data and analysis"
+version: "paper3-v1.0"
+date-released: "2026-09-10"
+url: "https://github.com/redeem123/CuTa-Paper3-Data"
+authors:
+  - family-names: "Nguyen"
+    given-names: "Thanh-Huan"
+  - family-names: "Ngo"
+    given-names: "Viet-Anh"
+  - family-names: "Nguyen"
+    given-names: "Duc-Toan"

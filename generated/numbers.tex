@@ -1,0 +1,755 @@
+\newcommand{\BaseForce}{58.82}
+\newcommand{\BaseForceSD}{3.03}
+\newcommand{\BaseForcePM}{\ensuremath{58.82 \pm 3.03}}
+\newcommand{\BaseForceRone}{60.96}
+\newcommand{\BaseForceRtwo}{56.67}
+\newcommand{\BaseFz}{22.17}
+\newcommand{\BaseFzSD}{0.55}
+\newcommand{\BaseFzPM}{\ensuremath{22.17 \pm 0.55}}
+\newcommand{\BaseFzRone}{21.78}
+\newcommand{\BaseFzRtwo}{22.56}
+\newcommand{\BaseTensile}{1.61}
+\newcommand{\BaseTensileSD}{0.70}
+\newcommand{\BaseTensilePM}{\ensuremath{1.61 \pm 0.70}}
+\newcommand{\BaseTensileRone}{2.11}
+\newcommand{\BaseTensileRtwo}{1.12}
+\newcommand{\BaseDown}{58.82}
+\newcommand{\BaseDownSD}{3.03}
+\newcommand{\BaseDownPM}{\ensuremath{58.82 \pm 3.03}}
+\newcommand{\BaseDownRone}{60.96}
+\newcommand{\BaseDownRtwo}{56.67}
+\newcommand{\BaseUp}{58.82}
+\newcommand{\BaseUpSD}{3.03}
+\newcommand{\BaseUpPM}{\ensuremath{58.82 \pm 3.03}}
+\newcommand{\BaseUpRone}{60.96}
+\newcommand{\BaseUpRtwo}{56.67}
+\newcommand{\BaseStroke}{0.00}
+\newcommand{\BaseStrokeSD}{0.00}
+\newcommand{\BaseStrokePM}{\ensuremath{0.00 \pm 0.00}}
+\newcommand{\BaseStrokeRone}{0.00}
+\newcommand{\BaseStrokeRtwo}{0.00}
+\newcommand{\BaseReduction}{0.00}
+\newcommand{\BaseReductionSD}{0.00}
+\newcommand{\BaseReductionPM}{\ensuremath{0.00 \pm 0.00}}
+\newcommand{\BaseReductionRone}{0.00}
+\newcommand{\BaseReductionRtwo}{0.00}
+\newcommand{\BaseWork}{0.00}
+\newcommand{\BaseWorkSD}{0.00}
+\newcommand{\BaseWorkPM}{\ensuremath{0.00 \pm 0.00}}
+\newcommand{\BaseWorkRone}{0.00}
+\newcommand{\BaseWorkRtwo}{0.00}
+\newcommand{\BasePz}{0.00}
+\newcommand{\BasePzSD}{0.00}
+\newcommand{\BasePzPM}{\ensuremath{0.00 \pm 0.00}}
+\newcommand{\BasePzRone}{0.00}
+\newcommand{\BasePzRtwo}{0.00}
+\newcommand{\BasePower}{1.76}
+\newcommand{\BasePowerSD}{0.09}
+\newcommand{\BasePowerPM}{\ensuremath{1.76 \pm 0.09}}
+\newcommand{\BasePowerRone}{1.83}
+\newcommand{\BasePowerRtwo}{1.70}
+\newcommand{\SoneForce}{56.52}
+\newcommand{\SoneForceSD}{4.74}
+\newcommand{\SoneForcePM}{\ensuremath{56.52 \pm 4.74}}
+\newcommand{\SoneForceRone}{59.87}
+\newcommand{\SoneForceRtwo}{53.17}
+\newcommand{\AtenBfiveForce}{56.52}
+\newcommand{\AtenBfiveForceSD}{4.74}
+\newcommand{\AtenBfiveForcePM}{\ensuremath{56.52 \pm 4.74}}
+\newcommand{\AtenBfiveForceRone}{59.87}
+\newcommand{\AtenBfiveForceRtwo}{53.17}
+\newcommand{\SoneFz}{23.48}
+\newcommand{\SoneFzSD}{0.49}
+\newcommand{\SoneFzPM}{\ensuremath{23.48 \pm 0.49}}
+\newcommand{\SoneFzRone}{23.14}
+\newcommand{\SoneFzRtwo}{23.83}
+\newcommand{\AtenBfiveFz}{23.48}
+\newcommand{\AtenBfiveFzSD}{0.49}
+\newcommand{\AtenBfiveFzPM}{\ensuremath{23.48 \pm 0.49}}
+\newcommand{\AtenBfiveFzRone}{23.14}
+\newcommand{\AtenBfiveFzRtwo}{23.83}
+\newcommand{\SoneTensile}{23.58}
+\newcommand{\SoneTensileSD}{0.79}
+\newcommand{\SoneTensilePM}{\ensuremath{23.58 \pm 0.79}}
+\newcommand{\SoneTensileRone}{24.14}
+\newcommand{\SoneTensileRtwo}{23.02}
+\newcommand{\AtenBfiveTensile}{23.58}
+\newcommand{\AtenBfiveTensileSD}{0.79}
+\newcommand{\AtenBfiveTensilePM}{\ensuremath{23.58 \pm 0.79}}
+\newcommand{\AtenBfiveTensileRone}{24.14}
+\newcommand{\AtenBfiveTensileRtwo}{23.02}
+\newcommand{\SoneDown}{56.95}
+\newcommand{\SoneDownSD}{5.53}
+\newcommand{\SoneDownPM}{\ensuremath{56.95 \pm 5.53}}
+\newcommand{\SoneDownRone}{60.86}
+\newcommand{\SoneDownRtwo}{53.04}
+\newcommand{\AtenBfiveDown}{56.95}
+\newcommand{\AtenBfiveDownSD}{5.53}
+\newcommand{\AtenBfiveDownPM}{\ensuremath{56.95 \pm 5.53}}
+\newcommand{\AtenBfiveDownRone}{60.86}
+\newcommand{\AtenBfiveDownRtwo}{53.04}
+\newcommand{\SoneUp}{56.05}
+\newcommand{\SoneUpSD}{3.88}
+\newcommand{\SoneUpPM}{\ensuremath{56.05 \pm 3.88}}
+\newcommand{\SoneUpRone}{58.79}
+\newcommand{\SoneUpRtwo}{53.30}
+\newcommand{\AtenBfiveUp}{56.05}
+\newcommand{\AtenBfiveUpSD}{3.88}
+\newcommand{\AtenBfiveUpPM}{\ensuremath{56.05 \pm 3.88}}
+\newcommand{\AtenBfiveUpRone}{58.79}
+\newcommand{\AtenBfiveUpRtwo}{53.30}
+\newcommand{\SoneStroke}{1.45}
+\newcommand{\SoneStrokeSD}{2.75}
+\newcommand{\SoneStrokePM}{\ensuremath{1.45 \pm 2.75}}
+\newcommand{\SoneStrokeRone}{3.40}
+\newcommand{\SoneStrokeRtwo}{-0.49}
+\newcommand{\AtenBfiveStroke}{1.45}
+\newcommand{\AtenBfiveStrokeSD}{2.75}
+\newcommand{\AtenBfiveStrokePM}{\ensuremath{1.45 \pm 2.75}}
+\newcommand{\AtenBfiveStrokeRone}{3.40}
+\newcommand{\AtenBfiveStrokeRtwo}{-0.49}
+\newcommand{\SoneReduction}{3.99}
+\newcommand{\SoneReductionSD}{3.10}
+\newcommand{\SoneReductionPM}{\ensuremath{3.99 \pm 3.10}}
+\newcommand{\SoneReductionRone}{1.79}
+\newcommand{\SoneReductionRtwo}{6.18}
+\newcommand{\AtenBfiveReduction}{3.99}
+\newcommand{\AtenBfiveReductionSD}{3.10}
+\newcommand{\AtenBfiveReductionPM}{\ensuremath{3.99 \pm 3.10}}
+\newcommand{\AtenBfiveReductionRone}{1.79}
+\newcommand{\AtenBfiveReductionRtwo}{6.18}
+\newcommand{\SoneWork}{35.06}
+\newcommand{\SoneWorkSD}{0.54}
+\newcommand{\SoneWorkPM}{\ensuremath{35.06 \pm 0.54}}
+\newcommand{\SoneWorkRone}{35.44}
+\newcommand{\SoneWorkRtwo}{34.68}
+\newcommand{\AtenBfiveWork}{35.06}
+\newcommand{\AtenBfiveWorkSD}{0.54}
+\newcommand{\AtenBfiveWorkPM}{\ensuremath{35.06 \pm 0.54}}
+\newcommand{\AtenBfiveWorkRone}{35.44}
+\newcommand{\AtenBfiveWorkRtwo}{34.68}
+\newcommand{\SonePz}{0.14}
+\newcommand{\SonePzSD}{0.00}
+\newcommand{\SonePzPM}{\ensuremath{0.14 \pm 0.00}}
+\newcommand{\SonePzRone}{0.15}
+\newcommand{\SonePzRtwo}{0.14}
+\newcommand{\AtenBfivePz}{0.14}
+\newcommand{\AtenBfivePzSD}{0.00}
+\newcommand{\AtenBfivePzPM}{\ensuremath{0.14 \pm 0.00}}
+\newcommand{\AtenBfivePzRone}{0.15}
+\newcommand{\AtenBfivePzRtwo}{0.14}
+\newcommand{\SonePower}{1.84}
+\newcommand{\SonePowerSD}{0.14}
+\newcommand{\SonePowerPM}{\ensuremath{1.84 \pm 0.14}}
+\newcommand{\SonePowerRone}{1.94}
+\newcommand{\SonePowerRtwo}{1.74}
+\newcommand{\AtenBfivePower}{1.84}
+\newcommand{\AtenBfivePowerSD}{0.14}
+\newcommand{\AtenBfivePowerPM}{\ensuremath{1.84 \pm 0.14}}
+\newcommand{\AtenBfivePowerRone}{1.94}
+\newcommand{\AtenBfivePowerRtwo}{1.74}
+\newcommand{\StwoForce}{54.35}
+\newcommand{\StwoForceSD}{2.29}
+\newcommand{\StwoForcePM}{\ensuremath{54.35 \pm 2.29}}
+\newcommand{\StwoForceRone}{55.97}
+\newcommand{\StwoForceRtwo}{52.73}
+\newcommand{\AtenBtwentyForce}{54.35}
+\newcommand{\AtenBtwentyForceSD}{2.29}
+\newcommand{\AtenBtwentyForcePM}{\ensuremath{54.35 \pm 2.29}}
+\newcommand{\AtenBtwentyForceRone}{55.97}
+\newcommand{\AtenBtwentyForceRtwo}{52.73}
+\newcommand{\StwoFz}{20.74}
+\newcommand{\StwoFzSD}{0.36}
+\newcommand{\StwoFzPM}{\ensuremath{20.74 \pm 0.36}}
+\newcommand{\StwoFzRone}{20.99}
+\newcommand{\StwoFzRtwo}{20.49}
+\newcommand{\AtenBtwentyFz}{20.74}
+\newcommand{\AtenBtwentyFzSD}{0.36}
+\newcommand{\AtenBtwentyFzPM}{\ensuremath{20.74 \pm 0.36}}
+\newcommand{\AtenBtwentyFzRone}{20.99}
+\newcommand{\AtenBtwentyFzRtwo}{20.49}
+\newcommand{\StwoTensile}{31.76}
+\newcommand{\StwoTensileSD}{0.34}
+\newcommand{\StwoTensilePM}{\ensuremath{31.76 \pm 0.34}}
+\newcommand{\StwoTensileRone}{31.52}
+\newcommand{\StwoTensileRtwo}{32.00}
+\newcommand{\AtenBtwentyTensile}{31.76}
+\newcommand{\AtenBtwentyTensileSD}{0.34}
+\newcommand{\AtenBtwentyTensilePM}{\ensuremath{31.76 \pm 0.34}}
+\newcommand{\AtenBtwentyTensileRone}{31.52}
+\newcommand{\AtenBtwentyTensileRtwo}{32.00}
+\newcommand{\StwoDown}{57.52}
+\newcommand{\StwoDownSD}{2.43}
+\newcommand{\StwoDownPM}{\ensuremath{57.52 \pm 2.43}}
+\newcommand{\StwoDownRone}{59.24}
+\newcommand{\StwoDownRtwo}{55.80}
+\newcommand{\AtenBtwentyDown}{57.52}
+\newcommand{\AtenBtwentyDownSD}{2.43}
+\newcommand{\AtenBtwentyDownPM}{\ensuremath{57.52 \pm 2.43}}
+\newcommand{\AtenBtwentyDownRone}{59.24}
+\newcommand{\AtenBtwentyDownRtwo}{55.80}
+\newcommand{\StwoUp}{51.21}
+\newcommand{\StwoUpSD}{2.15}
+\newcommand{\StwoUpPM}{\ensuremath{51.21 \pm 2.15}}
+\newcommand{\StwoUpRone}{52.73}
+\newcommand{\StwoUpRtwo}{49.69}
+\newcommand{\AtenBtwentyUp}{51.21}
+\newcommand{\AtenBtwentyUpSD}{2.15}
+\newcommand{\AtenBtwentyUpPM}{\ensuremath{51.21 \pm 2.15}}
+\newcommand{\AtenBtwentyUpRone}{52.73}
+\newcommand{\AtenBtwentyUpRtwo}{49.69}
+\newcommand{\StwoStroke}{10.97}
+\newcommand{\StwoStrokeSD}{0.01}
+\newcommand{\StwoStrokePM}{\ensuremath{10.97 \pm 0.01}}
+\newcommand{\StwoStrokeRone}{10.98}
+\newcommand{\StwoStrokeRtwo}{10.96}
+\newcommand{\AtenBtwentyStroke}{10.97}
+\newcommand{\AtenBtwentyStrokeSD}{0.01}
+\newcommand{\AtenBtwentyStrokePM}{\ensuremath{10.97 \pm 0.01}}
+\newcommand{\AtenBtwentyStrokeRone}{10.98}
+\newcommand{\AtenBtwentyStrokeRtwo}{10.96}
+\newcommand{\StwoReduction}{7.57}
+\newcommand{\StwoReductionSD}{0.87}
+\newcommand{\StwoReductionPM}{\ensuremath{7.57 \pm 0.87}}
+\newcommand{\StwoReductionRone}{8.19}
+\newcommand{\StwoReductionRtwo}{6.95}
+\newcommand{\AtenBtwentyReduction}{7.57}
+\newcommand{\AtenBtwentyReductionSD}{0.87}
+\newcommand{\AtenBtwentyReductionPM}{\ensuremath{7.57 \pm 0.87}}
+\newcommand{\AtenBtwentyReductionRone}{8.19}
+\newcommand{\AtenBtwentyReductionRtwo}{6.95}
+\newcommand{\StwoWork}{58.17}
+\newcommand{\StwoWorkSD}{3.78}
+\newcommand{\StwoWorkPM}{\ensuremath{58.17 \pm 3.78}}
+\newcommand{\StwoWorkRone}{60.84}
+\newcommand{\StwoWorkRtwo}{55.50}
+\newcommand{\AtenBtwentyWork}{58.17}
+\newcommand{\AtenBtwentyWorkSD}{3.78}
+\newcommand{\AtenBtwentyWorkPM}{\ensuremath{58.17 \pm 3.78}}
+\newcommand{\AtenBtwentyWorkRone}{60.84}
+\newcommand{\AtenBtwentyWorkRtwo}{55.50}
+\newcommand{\StwoPz}{0.88}
+\newcommand{\StwoPzSD}{0.06}
+\newcommand{\StwoPzPM}{\ensuremath{0.88 \pm 0.06}}
+\newcommand{\StwoPzRone}{0.92}
+\newcommand{\StwoPzRtwo}{0.84}
+\newcommand{\AtenBtwentyPz}{0.88}
+\newcommand{\AtenBtwentyPzSD}{0.06}
+\newcommand{\AtenBtwentyPzPM}{\ensuremath{0.88 \pm 0.06}}
+\newcommand{\AtenBtwentyPzRone}{0.92}
+\newcommand{\AtenBtwentyPzRtwo}{0.84}
+\newcommand{\StwoPower}{2.51}
+\newcommand{\StwoPowerSD}{0.13}
+\newcommand{\StwoPowerPM}{\ensuremath{2.51 \pm 0.13}}
+\newcommand{\StwoPowerRone}{2.60}
+\newcommand{\StwoPowerRtwo}{2.42}
+\newcommand{\AtenBtwentyPower}{2.51}
+\newcommand{\AtenBtwentyPowerSD}{0.13}
+\newcommand{\AtenBtwentyPowerPM}{\ensuremath{2.51 \pm 0.13}}
+\newcommand{\AtenBtwentyPowerRone}{2.60}
+\newcommand{\AtenBtwentyPowerRtwo}{2.42}
+\newcommand{\SfourForce}{48.51}
+\newcommand{\SfourForceSD}{3.16}
+\newcommand{\SfourForcePM}{\ensuremath{48.51 \pm 3.16}}
+\newcommand{\SfourForceRone}{50.74}
+\newcommand{\SfourForceRtwo}{46.28}
+\newcommand{\AtwentyfiveBtenForce}{48.51}
+\newcommand{\AtwentyfiveBtenForceSD}{3.16}
+\newcommand{\AtwentyfiveBtenForcePM}{\ensuremath{48.51 \pm 3.16}}
+\newcommand{\AtwentyfiveBtenForceRone}{50.74}
+\newcommand{\AtwentyfiveBtenForceRtwo}{46.28}
+\newcommand{\SfourFz}{25.63}
+\newcommand{\SfourFzSD}{1.19}
+\newcommand{\SfourFzPM}{\ensuremath{25.63 \pm 1.19}}
+\newcommand{\SfourFzRone}{26.47}
+\newcommand{\SfourFzRtwo}{24.79}
+\newcommand{\AtwentyfiveBtenFz}{25.63}
+\newcommand{\AtwentyfiveBtenFzSD}{1.19}
+\newcommand{\AtwentyfiveBtenFzPM}{\ensuremath{25.63 \pm 1.19}}
+\newcommand{\AtwentyfiveBtenFzRone}{26.47}
+\newcommand{\AtwentyfiveBtenFzRtwo}{24.79}
+\newcommand{\SfourTensile}{39.24}
+\newcommand{\SfourTensileSD}{1.20}
+\newcommand{\SfourTensilePM}{\ensuremath{39.24 \pm 1.20}}
+\newcommand{\SfourTensileRone}{38.40}
+\newcommand{\SfourTensileRtwo}{40.09}
+\newcommand{\AtwentyfiveBtenTensile}{39.24}
+\newcommand{\AtwentyfiveBtenTensileSD}{1.20}
+\newcommand{\AtwentyfiveBtenTensilePM}{\ensuremath{39.24 \pm 1.20}}
+\newcommand{\AtwentyfiveBtenTensileRone}{38.40}
+\newcommand{\AtwentyfiveBtenTensileRtwo}{40.09}
+\newcommand{\SfourDown}{50.77}
+\newcommand{\SfourDownSD}{3.54}
+\newcommand{\SfourDownPM}{\ensuremath{50.77 \pm 3.54}}
+\newcommand{\SfourDownRone}{53.28}
+\newcommand{\SfourDownRtwo}{48.27}
+\newcommand{\AtwentyfiveBtenDown}{50.77}
+\newcommand{\AtwentyfiveBtenDownSD}{3.54}
+\newcommand{\AtwentyfiveBtenDownPM}{\ensuremath{50.77 \pm 3.54}}
+\newcommand{\AtwentyfiveBtenDownRone}{53.28}
+\newcommand{\AtwentyfiveBtenDownRtwo}{48.27}
+\newcommand{\SfourUp}{46.38}
+\newcommand{\SfourUpSD}{2.80}
+\newcommand{\SfourUpPM}{\ensuremath{46.38 \pm 2.80}}
+\newcommand{\SfourUpRone}{48.36}
+\newcommand{\SfourUpRtwo}{44.40}
+\newcommand{\AtwentyfiveBtenUp}{46.38}
+\newcommand{\AtwentyfiveBtenUpSD}{2.80}
+\newcommand{\AtwentyfiveBtenUpPM}{\ensuremath{46.38 \pm 2.80}}
+\newcommand{\AtwentyfiveBtenUpRone}{48.36}
+\newcommand{\AtwentyfiveBtenUpRtwo}{44.40}
+\newcommand{\SfourStroke}{8.62}
+\newcommand{\SfourStrokeSD}{0.87}
+\newcommand{\SfourStrokePM}{\ensuremath{8.62 \pm 0.87}}
+\newcommand{\SfourStrokeRone}{9.23}
+\newcommand{\SfourStrokeRtwo}{8.00}
+\newcommand{\AtwentyfiveBtenStroke}{8.62}
+\newcommand{\AtwentyfiveBtenStrokeSD}{0.87}
+\newcommand{\AtwentyfiveBtenStrokePM}{\ensuremath{8.62 \pm 0.87}}
+\newcommand{\AtwentyfiveBtenStrokeRone}{9.23}
+\newcommand{\AtwentyfiveBtenStrokeRtwo}{8.00}
+\newcommand{\SfourReduction}{17.55}
+\newcommand{\SfourReductionSD}{1.12}
+\newcommand{\SfourReductionPM}{\ensuremath{17.55 \pm 1.12}}
+\newcommand{\SfourReductionRone}{16.76}
+\newcommand{\SfourReductionRtwo}{18.34}
+\newcommand{\AtwentyfiveBtenReduction}{17.55}
+\newcommand{\AtwentyfiveBtenReductionSD}{1.12}
+\newcommand{\AtwentyfiveBtenReductionPM}{\ensuremath{17.55 \pm 1.12}}
+\newcommand{\AtwentyfiveBtenReductionRone}{16.76}
+\newcommand{\AtwentyfiveBtenReductionRtwo}{18.34}
+\newcommand{\SfourWork}{230.02}
+\newcommand{\SfourWorkSD}{12.85}
+\newcommand{\SfourWorkPM}{\ensuremath{230.02 \pm 12.85}}
+\newcommand{\SfourWorkRone}{239.10}
+\newcommand{\SfourWorkRtwo}{220.93}
+\newcommand{\AtwentyfiveBtenWork}{230.02}
+\newcommand{\AtwentyfiveBtenWorkSD}{12.85}
+\newcommand{\AtwentyfiveBtenWorkPM}{\ensuremath{230.02 \pm 12.85}}
+\newcommand{\AtwentyfiveBtenWorkRone}{239.10}
+\newcommand{\AtwentyfiveBtenWorkRtwo}{220.93}
+\newcommand{\SfourPz}{0.68}
+\newcommand{\SfourPzSD}{0.03}
+\newcommand{\SfourPzPM}{\ensuremath{0.68 \pm 0.03}}
+\newcommand{\SfourPzRone}{0.71}
+\newcommand{\SfourPzRtwo}{0.66}
+\newcommand{\AtwentyfiveBtenPz}{0.68}
+\newcommand{\AtwentyfiveBtenPzSD}{0.03}
+\newcommand{\AtwentyfiveBtenPzPM}{\ensuremath{0.68 \pm 0.03}}
+\newcommand{\AtwentyfiveBtenPzRone}{0.71}
+\newcommand{\AtwentyfiveBtenPzRtwo}{0.66}
+\newcommand{\SfourPower}{2.14}
+\newcommand{\SfourPowerSD}{0.13}
+\newcommand{\SfourPowerPM}{\ensuremath{2.14 \pm 0.13}}
+\newcommand{\SfourPowerRone}{2.23}
+\newcommand{\SfourPowerRtwo}{2.05}
+\newcommand{\AtwentyfiveBtenPower}{2.14}
+\newcommand{\AtwentyfiveBtenPowerSD}{0.13}
+\newcommand{\AtwentyfiveBtenPowerPM}{\ensuremath{2.14 \pm 0.13}}
+\newcommand{\AtwentyfiveBtenPowerRone}{2.23}
+\newcommand{\AtwentyfiveBtenPowerRtwo}{2.05}
+\newcommand{\SfiveForce}{44.17}
+\newcommand{\SfiveForceSD}{2.93}
+\newcommand{\SfiveForcePM}{\ensuremath{44.17 \pm 2.93}}
+\newcommand{\SfiveForceRone}{46.24}
+\newcommand{\SfiveForceRtwo}{42.09}
+\newcommand{\MidForce}{44.17}
+\newcommand{\MidForceSD}{2.93}
+\newcommand{\MidForcePM}{\ensuremath{44.17 \pm 2.93}}
+\newcommand{\MidForceRone}{46.24}
+\newcommand{\MidForceRtwo}{42.09}
+\newcommand{\AtwentyfiveBtwentyForce}{44.17}
+\newcommand{\AtwentyfiveBtwentyForceSD}{2.93}
+\newcommand{\AtwentyfiveBtwentyForcePM}{\ensuremath{44.17 \pm 2.93}}
+\newcommand{\AtwentyfiveBtwentyForceRone}{46.24}
+\newcommand{\AtwentyfiveBtwentyForceRtwo}{42.09}
+\newcommand{\SfiveFz}{19.80}
+\newcommand{\SfiveFzSD}{0.52}
+\newcommand{\SfiveFzPM}{\ensuremath{19.80 \pm 0.52}}
+\newcommand{\SfiveFzRone}{19.43}
+\newcommand{\SfiveFzRtwo}{20.16}
+\newcommand{\MidFz}{19.80}
+\newcommand{\MidFzSD}{0.52}
+\newcommand{\MidFzPM}{\ensuremath{19.80 \pm 0.52}}
+\newcommand{\MidFzRone}{19.43}
+\newcommand{\MidFzRtwo}{20.16}
+\newcommand{\AtwentyfiveBtwentyFz}{19.80}
+\newcommand{\AtwentyfiveBtwentyFzSD}{0.52}
+\newcommand{\AtwentyfiveBtwentyFzPM}{\ensuremath{19.80 \pm 0.52}}
+\newcommand{\AtwentyfiveBtwentyFzRone}{19.43}
+\newcommand{\AtwentyfiveBtwentyFzRtwo}{20.16}
+\newcommand{\SfiveTensile}{44.24}
+\newcommand{\SfiveTensileSD}{0.98}
+\newcommand{\SfiveTensilePM}{\ensuremath{44.24 \pm 0.98}}
+\newcommand{\SfiveTensileRone}{44.94}
+\newcommand{\SfiveTensileRtwo}{43.54}
+\newcommand{\MidTensile}{44.24}
+\newcommand{\MidTensileSD}{0.98}
+\newcommand{\MidTensilePM}{\ensuremath{44.24 \pm 0.98}}
+\newcommand{\MidTensileRone}{44.94}
+\newcommand{\MidTensileRtwo}{43.54}
+\newcommand{\AtwentyfiveBtwentyTensile}{44.24}
+\newcommand{\AtwentyfiveBtwentyTensileSD}{0.98}
+\newcommand{\AtwentyfiveBtwentyTensilePM}{\ensuremath{44.24 \pm 0.98}}
+\newcommand{\AtwentyfiveBtwentyTensileRone}{44.94}
+\newcommand{\AtwentyfiveBtwentyTensileRtwo}{43.54}
+\newcommand{\SfiveDown}{48.44}
+\newcommand{\SfiveDownSD}{2.39}
+\newcommand{\SfiveDownPM}{\ensuremath{48.44 \pm 2.39}}
+\newcommand{\SfiveDownRone}{50.13}
+\newcommand{\SfiveDownRtwo}{46.75}
+\newcommand{\MidDown}{48.44}
+\newcommand{\MidDownSD}{2.39}
+\newcommand{\MidDownPM}{\ensuremath{48.44 \pm 2.39}}
+\newcommand{\MidDownRone}{50.13}
+\newcommand{\MidDownRtwo}{46.75}
+\newcommand{\AtwentyfiveBtwentyDown}{48.44}
+\newcommand{\AtwentyfiveBtwentyDownSD}{2.39}
+\newcommand{\AtwentyfiveBtwentyDownPM}{\ensuremath{48.44 \pm 2.39}}
+\newcommand{\AtwentyfiveBtwentyDownRone}{50.13}
+\newcommand{\AtwentyfiveBtwentyDownRtwo}{46.75}
+\newcommand{\SfiveUp}{39.91}
+\newcommand{\SfiveUpSD}{3.48}
+\newcommand{\SfiveUpPM}{\ensuremath{39.91 \pm 3.48}}
+\newcommand{\SfiveUpRone}{42.37}
+\newcommand{\SfiveUpRtwo}{37.46}
+\newcommand{\MidUp}{39.91}
+\newcommand{\MidUpSD}{3.48}
+\newcommand{\MidUpPM}{\ensuremath{39.91 \pm 3.48}}
+\newcommand{\MidUpRone}{42.37}
+\newcommand{\MidUpRtwo}{37.46}
+\newcommand{\AtwentyfiveBtwentyUp}{39.91}
+\newcommand{\AtwentyfiveBtwentyUpSD}{3.48}
+\newcommand{\AtwentyfiveBtwentyUpPM}{\ensuremath{39.91 \pm 3.48}}
+\newcommand{\AtwentyfiveBtwentyUpRone}{42.37}
+\newcommand{\AtwentyfiveBtwentyUpRtwo}{37.46}
+\newcommand{\SfiveStroke}{17.67}
+\newcommand{\SfiveStrokeSD}{3.12}
+\newcommand{\SfiveStrokePM}{\ensuremath{17.67 \pm 3.12}}
+\newcommand{\SfiveStrokeRone}{15.46}
+\newcommand{\SfiveStrokeRtwo}{19.87}
+\newcommand{\MidStroke}{17.67}
+\newcommand{\MidStrokeSD}{3.12}
+\newcommand{\MidStrokePM}{\ensuremath{17.67 \pm 3.12}}
+\newcommand{\MidStrokeRone}{15.46}
+\newcommand{\MidStrokeRtwo}{19.87}
+\newcommand{\AtwentyfiveBtwentyStroke}{17.67}
+\newcommand{\AtwentyfiveBtwentyStrokeSD}{3.12}
+\newcommand{\AtwentyfiveBtwentyStrokePM}{\ensuremath{17.67 \pm 3.12}}
+\newcommand{\AtwentyfiveBtwentyStrokeRone}{15.46}
+\newcommand{\AtwentyfiveBtwentyStrokeRtwo}{19.87}
+\newcommand{\SfiveReduction}{24.94}
+\newcommand{\SfiveReductionSD}{1.12}
+\newcommand{\SfiveReductionPM}{\ensuremath{24.94 \pm 1.12}}
+\newcommand{\SfiveReductionRone}{24.15}
+\newcommand{\SfiveReductionRtwo}{25.73}
+\newcommand{\MidReduction}{24.94}
+\newcommand{\MidReductionSD}{1.12}
+\newcommand{\MidReductionPM}{\ensuremath{24.94 \pm 1.12}}
+\newcommand{\MidReductionRone}{24.15}
+\newcommand{\MidReductionRtwo}{25.73}
+\newcommand{\AtwentyfiveBtwentyReduction}{24.94}
+\newcommand{\AtwentyfiveBtwentyReductionSD}{1.12}
+\newcommand{\AtwentyfiveBtwentyReductionPM}{\ensuremath{24.94 \pm 1.12}}
+\newcommand{\AtwentyfiveBtwentyReductionRone}{24.15}
+\newcommand{\AtwentyfiveBtwentyReductionRtwo}{25.73}
+\newcommand{\SfiveWork}{211.18}
+\newcommand{\SfiveWorkSD}{4.39}
+\newcommand{\SfiveWorkPM}{\ensuremath{211.18 \pm 4.39}}
+\newcommand{\SfiveWorkRone}{214.29}
+\newcommand{\SfiveWorkRtwo}{208.07}
+\newcommand{\MidWork}{211.18}
+\newcommand{\MidWorkSD}{4.39}
+\newcommand{\MidWorkPM}{\ensuremath{211.18 \pm 4.39}}
+\newcommand{\MidWorkRone}{214.29}
+\newcommand{\MidWorkRtwo}{208.07}
+\newcommand{\AtwentyfiveBtwentyWork}{211.18}
+\newcommand{\AtwentyfiveBtwentyWorkSD}{4.39}
+\newcommand{\AtwentyfiveBtwentyWorkPM}{\ensuremath{211.18 \pm 4.39}}
+\newcommand{\AtwentyfiveBtwentyWorkRone}{214.29}
+\newcommand{\AtwentyfiveBtwentyWorkRtwo}{208.07}
+\newcommand{\SfivePz}{1.27}
+\newcommand{\SfivePzSD}{0.03}
+\newcommand{\SfivePzPM}{\ensuremath{1.27 \pm 0.03}}
+\newcommand{\SfivePzRone}{1.29}
+\newcommand{\SfivePzRtwo}{1.26}
+\newcommand{\MidPz}{1.27}
+\newcommand{\MidPzSD}{0.03}
+\newcommand{\MidPzPM}{\ensuremath{1.27 \pm 0.03}}
+\newcommand{\MidPzRone}{1.29}
+\newcommand{\MidPzRtwo}{1.26}
+\newcommand{\AtwentyfiveBtwentyPz}{1.27}
+\newcommand{\AtwentyfiveBtwentyPzSD}{0.03}
+\newcommand{\AtwentyfiveBtwentyPzPM}{\ensuremath{1.27 \pm 0.03}}
+\newcommand{\AtwentyfiveBtwentyPzRone}{1.29}
+\newcommand{\AtwentyfiveBtwentyPzRtwo}{1.26}
+\newcommand{\SfivePower}{2.60}
+\newcommand{\SfivePowerSD}{0.11}
+\newcommand{\SfivePowerPM}{\ensuremath{2.60 \pm 0.11}}
+\newcommand{\SfivePowerRone}{2.68}
+\newcommand{\SfivePowerRtwo}{2.52}
+\newcommand{\MidPower}{2.60}
+\newcommand{\MidPowerSD}{0.11}
+\newcommand{\MidPowerPM}{\ensuremath{2.60 \pm 0.11}}
+\newcommand{\MidPowerRone}{2.68}
+\newcommand{\MidPowerRtwo}{2.52}
+\newcommand{\AtwentyfiveBtwentyPower}{2.60}
+\newcommand{\AtwentyfiveBtwentyPowerSD}{0.11}
+\newcommand{\AtwentyfiveBtwentyPowerPM}{\ensuremath{2.60 \pm 0.11}}
+\newcommand{\AtwentyfiveBtwentyPowerRone}{2.68}
+\newcommand{\AtwentyfiveBtwentyPowerRtwo}{2.52}
+\newcommand{\SsixForce}{35.32}
+\newcommand{\SsixForceSD}{0.33}
+\newcommand{\SsixForcePM}{\ensuremath{35.32 \pm 0.33}}
+\newcommand{\SsixForceRone}{35.55}
+\newcommand{\SsixForceRtwo}{35.08}
+\newcommand{\HighForce}{35.32}
+\newcommand{\HighForceSD}{0.33}
+\newcommand{\HighForcePM}{\ensuremath{35.32 \pm 0.33}}
+\newcommand{\HighForceRone}{35.55}
+\newcommand{\HighForceRtwo}{35.08}
+\newcommand{\AfiftyBtwentyForce}{35.32}
+\newcommand{\AfiftyBtwentyForceSD}{0.33}
+\newcommand{\AfiftyBtwentyForcePM}{\ensuremath{35.32 \pm 0.33}}
+\newcommand{\AfiftyBtwentyForceRone}{35.55}
+\newcommand{\AfiftyBtwentyForceRtwo}{35.08}
+\newcommand{\SsixFz}{25.12}
+\newcommand{\SsixFzSD}{2.74}
+\newcommand{\SsixFzPM}{\ensuremath{25.12 \pm 2.74}}
+\newcommand{\SsixFzRone}{23.18}
+\newcommand{\SsixFzRtwo}{27.06}
+\newcommand{\HighFz}{25.12}
+\newcommand{\HighFzSD}{2.74}
+\newcommand{\HighFzPM}{\ensuremath{25.12 \pm 2.74}}
+\newcommand{\HighFzRone}{23.18}
+\newcommand{\HighFzRtwo}{27.06}
+\newcommand{\AfiftyBtwentyFz}{25.12}
+\newcommand{\AfiftyBtwentyFzSD}{2.74}
+\newcommand{\AfiftyBtwentyFzPM}{\ensuremath{25.12 \pm 2.74}}
+\newcommand{\AfiftyBtwentyFzRone}{23.18}
+\newcommand{\AfiftyBtwentyFzRtwo}{27.06}
+\newcommand{\SsixTensile}{44.62}
+\newcommand{\SsixTensileSD}{1.94}
+\newcommand{\SsixTensilePM}{\ensuremath{44.62 \pm 1.94}}
+\newcommand{\SsixTensileRone}{45.99}
+\newcommand{\SsixTensileRtwo}{43.25}
+\newcommand{\HighTensile}{44.62}
+\newcommand{\HighTensileSD}{1.94}
+\newcommand{\HighTensilePM}{\ensuremath{44.62 \pm 1.94}}
+\newcommand{\HighTensileRone}{45.99}
+\newcommand{\HighTensileRtwo}{43.25}
+\newcommand{\AfiftyBtwentyTensile}{44.62}
+\newcommand{\AfiftyBtwentyTensileSD}{1.94}
+\newcommand{\AfiftyBtwentyTensilePM}{\ensuremath{44.62 \pm 1.94}}
+\newcommand{\AfiftyBtwentyTensileRone}{45.99}
+\newcommand{\AfiftyBtwentyTensileRtwo}{43.25}
+\newcommand{\SsixDown}{41.42}
+\newcommand{\SsixDownSD}{1.30}
+\newcommand{\SsixDownPM}{\ensuremath{41.42 \pm 1.30}}
+\newcommand{\SsixDownRone}{42.34}
+\newcommand{\SsixDownRtwo}{40.50}
+\newcommand{\HighDown}{41.42}
+\newcommand{\HighDownSD}{1.30}
+\newcommand{\HighDownPM}{\ensuremath{41.42 \pm 1.30}}
+\newcommand{\HighDownRone}{42.34}
+\newcommand{\HighDownRtwo}{40.50}
+\newcommand{\AfiftyBtwentyDown}{41.42}
+\newcommand{\AfiftyBtwentyDownSD}{1.30}
+\newcommand{\AfiftyBtwentyDownPM}{\ensuremath{41.42 \pm 1.30}}
+\newcommand{\AfiftyBtwentyDownRone}{42.34}
+\newcommand{\AfiftyBtwentyDownRtwo}{40.50}
+\newcommand{\SsixUp}{29.57}
+\newcommand{\SsixUpSD}{0.59}
+\newcommand{\SsixUpPM}{\ensuremath{29.57 \pm 0.59}}
+\newcommand{\SsixUpRone}{29.15}
+\newcommand{\SsixUpRtwo}{29.99}
+\newcommand{\HighUp}{29.57}
+\newcommand{\HighUpSD}{0.59}
+\newcommand{\HighUpPM}{\ensuremath{29.57 \pm 0.59}}
+\newcommand{\HighUpRone}{29.15}
+\newcommand{\HighUpRtwo}{29.99}
+\newcommand{\AfiftyBtwentyUp}{29.57}
+\newcommand{\AfiftyBtwentyUpSD}{0.59}
+\newcommand{\AfiftyBtwentyUpPM}{\ensuremath{29.57 \pm 0.59}}
+\newcommand{\AfiftyBtwentyUpRone}{29.15}
+\newcommand{\AfiftyBtwentyUpRtwo}{29.99}
+\newcommand{\SsixStroke}{28.55}
+\newcommand{\SsixStrokeSD}{3.67}
+\newcommand{\SsixStrokePM}{\ensuremath{28.55 \pm 3.67}}
+\newcommand{\SsixStrokeRone}{31.15}
+\newcommand{\SsixStrokeRtwo}{25.96}
+\newcommand{\HighStroke}{28.55}
+\newcommand{\HighStrokeSD}{3.67}
+\newcommand{\HighStrokePM}{\ensuremath{28.55 \pm 3.67}}
+\newcommand{\HighStrokeRone}{31.15}
+\newcommand{\HighStrokeRtwo}{25.96}
+\newcommand{\AfiftyBtwentyStroke}{28.55}
+\newcommand{\AfiftyBtwentyStrokeSD}{3.67}
+\newcommand{\AfiftyBtwentyStrokePM}{\ensuremath{28.55 \pm 3.67}}
+\newcommand{\AfiftyBtwentyStrokeRone}{31.15}
+\newcommand{\AfiftyBtwentyStrokeRtwo}{25.96}
+\newcommand{\SsixReduction}{39.89}
+\newcommand{\SsixReductionSD}{2.55}
+\newcommand{\SsixReductionPM}{\ensuremath{39.89 \pm 2.55}}
+\newcommand{\SsixReductionRone}{41.69}
+\newcommand{\SsixReductionRtwo}{38.09}
+\newcommand{\HighReduction}{39.89}
+\newcommand{\HighReductionSD}{2.55}
+\newcommand{\HighReductionPM}{\ensuremath{39.89 \pm 2.55}}
+\newcommand{\HighReductionRone}{41.69}
+\newcommand{\HighReductionRtwo}{38.09}
+\newcommand{\AfiftyBtwentyReduction}{39.89}
+\newcommand{\AfiftyBtwentyReductionSD}{2.55}
+\newcommand{\AfiftyBtwentyReductionPM}{\ensuremath{39.89 \pm 2.55}}
+\newcommand{\AfiftyBtwentyReductionRone}{41.69}
+\newcommand{\AfiftyBtwentyReductionRtwo}{38.09}
+\newcommand{\SsixWork}{774.15}
+\newcommand{\SsixWorkSD}{50.70}
+\newcommand{\SsixWorkPM}{\ensuremath{774.15 \pm 50.70}}
+\newcommand{\SsixWorkRone}{810.00}
+\newcommand{\SsixWorkRtwo}{738.30}
+\newcommand{\HighWork}{774.15}
+\newcommand{\HighWorkSD}{50.70}
+\newcommand{\HighWorkPM}{\ensuremath{774.15 \pm 50.70}}
+\newcommand{\HighWorkRone}{810.00}
+\newcommand{\HighWorkRtwo}{738.30}
+\newcommand{\AfiftyBtwentyWork}{774.15}
+\newcommand{\AfiftyBtwentyWorkSD}{50.70}
+\newcommand{\AfiftyBtwentyWorkPM}{\ensuremath{774.15 \pm 50.70}}
+\newcommand{\AfiftyBtwentyWorkRone}{810.00}
+\newcommand{\AfiftyBtwentyWorkRtwo}{738.30}
+\newcommand{\SsixPz}{2.32}
+\newcommand{\SsixPzSD}{0.16}
+\newcommand{\SsixPzPM}{\ensuremath{2.32 \pm 0.16}}
+\newcommand{\SsixPzRone}{2.43}
+\newcommand{\SsixPzRtwo}{2.21}
+\newcommand{\HighPz}{2.32}
+\newcommand{\HighPzSD}{0.16}
+\newcommand{\HighPzPM}{\ensuremath{2.32 \pm 0.16}}
+\newcommand{\HighPzRone}{2.43}
+\newcommand{\HighPzRtwo}{2.21}
+\newcommand{\AfiftyBtwentyPz}{2.32}
+\newcommand{\AfiftyBtwentyPzSD}{0.16}
+\newcommand{\AfiftyBtwentyPzPM}{\ensuremath{2.32 \pm 0.16}}
+\newcommand{\AfiftyBtwentyPzRone}{2.43}
+\newcommand{\AfiftyBtwentyPzRtwo}{2.21}
+\newcommand{\SsixPower}{3.38}
+\newcommand{\SsixPowerSD}{0.17}
+\newcommand{\SsixPowerPM}{\ensuremath{3.38 \pm 0.17}}
+\newcommand{\SsixPowerRone}{3.50}
+\newcommand{\SsixPowerRtwo}{3.26}
+\newcommand{\HighPower}{3.38}
+\newcommand{\HighPowerSD}{0.17}
+\newcommand{\HighPowerPM}{\ensuremath{3.38 \pm 0.17}}
+\newcommand{\HighPowerRone}{3.50}
+\newcommand{\HighPowerRtwo}{3.26}
+\newcommand{\AfiftyBtwentyPower}{3.38}
+\newcommand{\AfiftyBtwentyPowerSD}{0.17}
+\newcommand{\AfiftyBtwentyPowerPM}{\ensuremath{3.38 \pm 0.17}}
+\newcommand{\AfiftyBtwentyPowerRone}{3.50}
+\newcommand{\AfiftyBtwentyPowerRtwo}{3.26}
+\newcommand{\BasePlat}{1.76}
+\newcommand{\HighPlat}{1.06}
+\newcommand{\HighPlatSaving}{0.70}
+\newcommand{\PowerSurgePercent}{92}
+\newcommand{\HighDeltaFtPeak}{27.9}
+\newcommand{\SoneCostRatio}{2.1}
+\newcommand{\SoneCostRatioExact}{2.10}
+\newcommand{\SoneDeltaPx}{0.07}
+\newcommand{\CostRatioSone}{2.1}
+\newcommand{\CostRatioSoneExact}{2.10}
+\newcommand{\AtenBfiveCostRatio}{2.1}
+\newcommand{\AtenBfiveCostRatioExact}{2.10}
+\newcommand{\AtenBfiveDeltaPx}{0.07}
+\newcommand{\CostRatioAtenBfive}{2.1}
+\newcommand{\CostRatioAtenBfiveExact}{2.10}
+\newcommand{\StwoCostRatio}{6.5}
+\newcommand{\StwoCostRatioExact}{6.55}
+\newcommand{\StwoDeltaPx}{0.13}
+\newcommand{\CostRatioStwo}{6.5}
+\newcommand{\CostRatioStwoExact}{6.55}
+\newcommand{\AtenBtwentyCostRatio}{6.5}
+\newcommand{\AtenBtwentyCostRatioExact}{6.55}
+\newcommand{\AtenBtwentyDeltaPx}{0.13}
+\newcommand{\CostRatioAtenBtwenty}{6.5}
+\newcommand{\CostRatioAtenBtwentyExact}{6.55}
+\newcommand{\SfourCostRatio}{2.2}
+\newcommand{\SfourCostRatioExact}{2.20}
+\newcommand{\SfourDeltaPx}{0.31}
+\newcommand{\CostRatioSfour}{2.2}
+\newcommand{\CostRatioSfourExact}{2.20}
+\newcommand{\AtwentyfiveBtenCostRatio}{2.2}
+\newcommand{\AtwentyfiveBtenCostRatioExact}{2.20}
+\newcommand{\AtwentyfiveBtenDeltaPx}{0.31}
+\newcommand{\CostRatioAtwentyfiveBten}{2.2}
+\newcommand{\CostRatioAtwentyfiveBtenExact}{2.20}
+\newcommand{\SfiveCostRatio}{2.9}
+\newcommand{\SfiveCostRatioExact}{2.90}
+\newcommand{\SfiveDeltaPx}{0.44}
+\newcommand{\CostRatioSfive}{2.9}
+\newcommand{\CostRatioSfiveExact}{2.90}
+\newcommand{\MidCostRatio}{2.9}
+\newcommand{\MidCostRatioExact}{2.90}
+\newcommand{\MidDeltaPx}{0.44}
+\newcommand{\CostRatioMid}{2.9}
+\newcommand{\CostRatioMidExact}{2.90}
+\newcommand{\AtwentyfiveBtwentyCostRatio}{2.9}
+\newcommand{\AtwentyfiveBtwentyCostRatioExact}{2.90}
+\newcommand{\AtwentyfiveBtwentyDeltaPx}{0.44}
+\newcommand{\CostRatioAtwentyfiveBtwenty}{2.9}
+\newcommand{\CostRatioAtwentyfiveBtwentyExact}{2.90}
+\newcommand{\SsixCostRatio}{3.3}
+\newcommand{\SsixCostRatioExact}{3.29}
+\newcommand{\SsixDeltaPx}{0.71}
+\newcommand{\CostRatioSsix}{3.3}
+\newcommand{\CostRatioSsixExact}{3.29}
+\newcommand{\HighCostRatio}{3.3}
+\newcommand{\HighCostRatioExact}{3.29}
+\newcommand{\HighDeltaPx}{0.71}
+\newcommand{\CostRatioHigh}{3.3}
+\newcommand{\CostRatioHighExact}{3.29}
+\newcommand{\AfiftyBtwentyCostRatio}{3.3}
+\newcommand{\AfiftyBtwentyCostRatioExact}{3.29}
+\newcommand{\AfiftyBtwentyDeltaPx}{0.71}
+\newcommand{\CostRatioAfiftyBtwenty}{3.3}
+\newcommand{\CostRatioAfiftyBtwentyExact}{3.29}
+\newcommand{\CostRatioMin}{2.1}
+\newcommand{\CostRatioMax}{6.5}
+\newcommand{\SoneFreq}{23.87}
+\newcommand{\AtenBfiveFreq}{23.87}
+\newcommand{\StwoFreq}{95.49}
+\newcommand{\AtenBtwentyFreq}{95.49}
+\newcommand{\SfourFreq}{19.10}
+\newcommand{\AtwentyfiveBtenFreq}{19.10}
+\newcommand{\SfiveFreq}{38.20}
+\newcommand{\MidFreq}{38.20}
+\newcommand{\AtwentyfiveBtwentyFreq}{38.20}
+\newcommand{\SsixFreq}{19.10}
+\newcommand{\HighFreq}{19.10}
+\newcommand{\AfiftyBtwentyFreq}{19.10}
+\newcommand{\SoneNormPower}{1.04}
+\newcommand{\AtenBfiveNormPower}{1.04}
+\newcommand{\StwoNormPower}{1.42}
+\newcommand{\AtenBtwentyNormPower}{1.42}
+\newcommand{\SfourNormPower}{1.21}
+\newcommand{\AtwentyfiveBtenNormPower}{1.21}
+\newcommand{\SfiveNormPower}{1.47}
+\newcommand{\MidNormPower}{1.47}
+\newcommand{\AtwentyfiveBtwentyNormPower}{1.47}
+\newcommand{\SsixNormPower}{1.92}
+\newcommand{\HighNormPower}{1.92}
+\newcommand{\AfiftyBtwentyNormPower}{1.92}
+\newcommand{\BaseRoneCommonFt}{60.96}
+\newcommand{\BaseRoneExtendedFt}{68.93}
+\newcommand{\BaseRtwoCommonFt}{56.67}
+\newcommand{\BaseRtwoExtendedFt}{64.90}
+\newcommand{\BaseRoneDriftPercent}{13}
+\newcommand{\BaseRtwoDriftPercent}{15}
+\newcommand{\ControlLJHhalfForce}{26.70}
+\newcommand{\ControlLJHhalfTensile}{32.25}
+\newcommand{\ControlLJOneAndHalfForce}{60.33}
+\newcommand{\ControlLJOneAndHalfTensile}{47.94}
+\newcommand{\ControlHeatSinkFourForce}{56.87}
+\newcommand{\ControlHeatSinkTwoForce}{57.46}
+\newcommand{\ControlHeatSinkFourTensile}{33.01}
+\newcommand{\ControlHeatSinkTwoTensile}{32.31}

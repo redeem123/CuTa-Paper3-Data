@@ -1,0 +1,422 @@
+{
+  "scratch_base_R01": {
+    "case": "scratch_base_R01",
+    "realization": 1,
+    "source": "/Volumes/CuTaData/CuTa-results/runs/scratch_base_R01/metadata/final.data",
+    "source_sha256": "e3cc17f8551a20d7bdad38a955db679843dd8e8db507ff08b7cb452d9e0a37e1",
+    "reference_source": "/Users/hust-hwashin621m/Downloads/research_new_material/CuTa-Oscillatory-Nanoscratching-MD/results/runs/relax_laminate_R01/metadata/relaxed_structure.data",
+    "reference_source_sha256": "d1536e2cace36c30a77e64cae97cd63e5b776e28a4ef7e30f6fff8b5402c09dc",
+    "reference_state": "relaxed workpiece before scratch equilibration; not the last pre-translation frame",
+    "endpoint_step": 957333,
+    "endpoint_time_ps": 957.333,
+    "tool_atom_centroid_A": [
+      219.14585594549627,
+      77.99863944894379,
+      140.23625571923935
+    ],
+    "reference": "evidence/visualization/scratch_base_R01_reference.dump.gz",
+    "endpoint": "evidence/visualization/scratch_base_R01_final.dump.gz",
+    "translation_start_ps": 4.0,
+    "travel_nm": 28.59999,
+    "reference_cell_note": "Reference positions unchanged; cell includes scratch vacuum to avoid artificial top-bottom neighbors.",
+    "reference_sha256": "9dbef5a0a76eeff4787d50cc1b4091019f6a89f7a945a5cc31cee4d9e755d10b",
+    "endpoint_sha256": "0743c9b86f671878c3f41e81863ec2f9f93b07824530a4927feb77cbd385cf37",
+    "atom_ids_match": true,
+    "types_match": true,
+    "atoms_workpiece": 543778,
+    "invalid_strain_count": 0,
+    "invalid_strain_policy": "excluded from statistics; gray in strain rendering; never replaced by zero",
+    "valid_shear_mean": 1.1787514088177689,
+    "valid_fraction_above_0_3": 0.07391803272659063,
+    "cutoff_A": 3.375,
+    "section_y_A": 78.0,
+    "section_thickness_A": 30.0,
+    "strain_range": [
+      0.0,
+      1.0
+    ],
+    "morphology_output": "figures/scratch_morph_base.png",
+    "strain_output": "figures/scratch_strain_base.pdf",
+    "morphology_camera": {
+      "projection": "orthographic",
+      "direction": [
+        -0.4506539226259288,
+        0.6509445549041193,
+        -0.6108864284484812
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "size": [
+        1200,
+        1000
+      ],
+      "target_A": [
+        324.0,
+        78.0,
+        111.0
+      ],
+      "fov_A": 140.0,
+      "roi_x_A": [
+        180.0,
+        468.0
+      ],
+      "roi_z_min_A": 85.0,
+      "color": "neutral gray; all species identical",
+      "shadows": true,
+      "ambient_occlusion": true
+    }
+  },
+  "S1_R01": {
+    "case": "S1_R01",
+    "realization": 1,
+    "source": "/Volumes/CuTaData/CuTa-results/runs/S1_R01/metadata/final.data",
+    "source_sha256": "adbcf368d83b0e8c74b130740f3368db2bf15eb4d60ffc79928986c16fd80eb9",
+    "reference_source": "/Users/hust-hwashin621m/Downloads/research_new_material/CuTa-Oscillatory-Nanoscratching-MD/results/runs/relax_laminate_R01/metadata/relaxed_structure.data",
+    "reference_source_sha256": "d1536e2cace36c30a77e64cae97cd63e5b776e28a4ef7e30f6fff8b5402c09dc",
+    "reference_state": "relaxed workpiece before scratch equilibration; not the last pre-translation frame",
+    "endpoint_step": 926331,
+    "endpoint_time_ps": 926.331,
+    "tool_atom_centroid_A": [
+      266.1455677885632,
+      77.99863944894275,
+      140.35554422666374
+    ],
+    "reference": "evidence/visualization/S1_R01_reference.dump.gz",
+    "endpoint": "evidence/visualization/S1_R01_final.dump.gz",
+    "translation_start_ps": 129.664,
+    "travel_nm": 23.90001,
+    "reference_cell_note": "Reference positions unchanged; cell includes scratch vacuum to avoid artificial top-bottom neighbors.",
+    "reference_sha256": "b200aaeb73f055b801b9bf004ab4a963e894bf6f869003ac9c7c5317e60a7e0c",
+    "endpoint_sha256": "f6fc7f8a27982e6bebd0e90fc8b20fff54d73af7b670748cfd32fe2fbf645153",
+    "atom_ids_match": true,
+    "types_match": true,
+    "atoms_workpiece": 543778,
+    "invalid_strain_count": 0,
+    "invalid_strain_policy": "excluded from statistics; gray in strain rendering; never replaced by zero",
+    "valid_shear_mean": 0.5238299315373762,
+    "valid_fraction_above_0_3": 0.06421186587173443,
+    "cutoff_A": 3.375,
+    "section_y_A": 78.0,
+    "section_thickness_A": 30.0,
+    "strain_range": [
+      0.0,
+      1.0
+    ],
+    "morphology_output": "figures/scratch_morph_s1.png",
+    "strain_output": "figures/scratch_strain_s1.pdf",
+    "morphology_camera": {
+      "projection": "orthographic",
+      "direction": [
+        -0.4506539226259288,
+        0.6509445549041193,
+        -0.6108864284484812
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "size": [
+        1200,
+        1000
+      ],
+      "target_A": [
+        324.0,
+        78.0,
+        111.0
+      ],
+      "fov_A": 140.0,
+      "roi_x_A": [
+        180.0,
+        468.0
+      ],
+      "roi_z_min_A": 85.0,
+      "color": "neutral gray; all species identical",
+      "shadows": true,
+      "ambient_occlusion": true
+    }
+  },
+  "S2_R01": {
+    "case": "S2_R01",
+    "realization": 1,
+    "source": "/Volumes/CuTaData/CuTa-results/runs/S2_R01/metadata/final.data",
+    "source_sha256": "a1a1a0bd4a0861307231114cbaad02a9fd18f092a2d2379b34a1a6cbd15a684c",
+    "reference_source": "/Users/hust-hwashin621m/Downloads/research_new_material/CuTa-Oscillatory-Nanoscratching-MD/results/runs/relax_laminate_R01/metadata/relaxed_structure.data",
+    "reference_source_sha256": "d1536e2cace36c30a77e64cae97cd63e5b776e28a4ef7e30f6fff8b5402c09dc",
+    "reference_state": "relaxed workpiece before scratch equilibration; not the last pre-translation frame",
+    "endpoint_step": 602083,
+    "endpoint_time_ps": 602.083,
+    "tool_atom_centroid_A": [
+      335.1456339062633,
+      77.99863944894368,
+      140.88675185870696
+    ],
+    "reference": "evidence/visualization/S2_R01_reference.dump.gz",
+    "endpoint": "evidence/visualization/S2_R01_final.dump.gz",
+    "translation_start_ps": 35.416,
+    "travel_nm": 17.000009999999996,
+    "reference_cell_note": "Reference positions unchanged; cell includes scratch vacuum to avoid artificial top-bottom neighbors.",
+    "reference_sha256": "b3e43a0cb87b14c48b72a095780883c76f3876c96b3999794a26cec9bc3b6dae",
+    "endpoint_sha256": "fe5f4b89fc823a55028ac731c1ebed24dd22ea5e8e31717ea998714dd675e2f9",
+    "atom_ids_match": true,
+    "types_match": true,
+    "atoms_workpiece": 543778,
+    "invalid_strain_count": 0,
+    "invalid_strain_policy": "excluded from statistics; gray in strain rendering; never replaced by zero",
+    "valid_shear_mean": 0.26435828397635364,
+    "valid_fraction_above_0_3": 0.050162014645682616,
+    "cutoff_A": 3.375,
+    "section_y_A": 78.0,
+    "section_thickness_A": 30.0,
+    "strain_range": [
+      0.0,
+      1.0
+    ],
+    "morphology_output": "figures/scratch_morph_s2.png",
+    "strain_output": "figures/scratch_strain_s2.pdf",
+    "morphology_camera": {
+      "projection": "orthographic",
+      "direction": [
+        -0.4506539226259288,
+        0.6509445549041193,
+        -0.6108864284484812
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "size": [
+        1200,
+        1000
+      ],
+      "target_A": [
+        324.0,
+        78.0,
+        111.0
+      ],
+      "fov_A": 140.0,
+      "roi_x_A": [
+        180.0,
+        468.0
+      ],
+      "roi_z_min_A": 85.0,
+      "color": "neutral gray; all species identical",
+      "shadows": true,
+      "ambient_occlusion": true
+    }
+  },
+  "S4_R01": {
+    "case": "S4_R01",
+    "realization": 1,
+    "source": "/Volumes/CuTaData/CuTa-results/runs/S4_R01/metadata/final.data",
+    "source_sha256": "ceec30c88dfaa8d886e308b68d44f2f1c6eaabf8d367dd6d615d33ba2450553d",
+    "reference_source": "/Users/hust-hwashin621m/Downloads/research_new_material/CuTa-Oscillatory-Nanoscratching-MD/results/runs/relax_laminate_R01/metadata/relaxed_structure.data",
+    "reference_source_sha256": "d1536e2cace36c30a77e64cae97cd63e5b776e28a4ef7e30f6fff8b5402c09dc",
+    "reference_state": "relaxed workpiece before scratch equilibration; not the last pre-translation frame",
+    "endpoint_step": 1114413,
+    "endpoint_time_ps": 1114.413,
+    "tool_atom_centroid_A": [
+      219.14574574934142,
+      77.9986394489437,
+      142.6469271880953
+    ],
+    "reference": "evidence/visualization/S4_R01_reference.dump.gz",
+    "endpoint": "evidence/visualization/S4_R01_final.dump.gz",
+    "translation_start_ps": 161.08,
+    "travel_nm": 28.59999,
+    "reference_cell_note": "Reference positions unchanged; cell includes scratch vacuum to avoid artificial top-bottom neighbors.",
+    "reference_sha256": "8691e71147bde2d910b97131f8c0fbbdc75f45ba4ea227a150ee5972fe1fc80c",
+    "endpoint_sha256": "2be37da9fe4ff98fbb1433d79c0a58eda0ef4f2be9b1f2679e83e22e7586693b",
+    "atom_ids_match": true,
+    "types_match": true,
+    "atoms_workpiece": 543778,
+    "invalid_strain_count": 0,
+    "invalid_strain_policy": "excluded from statistics; gray in strain rendering; never replaced by zero",
+    "valid_shear_mean": 0.5706283114744443,
+    "valid_fraction_above_0_3": 0.08761479868622857,
+    "cutoff_A": 3.375,
+    "section_y_A": 78.0,
+    "section_thickness_A": 30.0,
+    "strain_range": [
+      0.0,
+      1.0
+    ],
+    "morphology_output": "figures/scratch_morph_s4.png",
+    "strain_output": "figures/scratch_strain_s4.pdf",
+    "morphology_camera": {
+      "projection": "orthographic",
+      "direction": [
+        -0.4506539226259288,
+        0.6509445549041193,
+        -0.6108864284484812
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "size": [
+        1200,
+        1000
+      ],
+      "target_A": [
+        324.0,
+        78.0,
+        111.0
+      ],
+      "fov_A": 140.0,
+      "roi_x_A": [
+        180.0,
+        468.0
+      ],
+      "roi_z_min_A": 85.0,
+      "color": "neutral gray; all species identical",
+      "shadows": true,
+      "ambient_occlusion": true
+    }
+  },
+  "S5_R01": {
+    "case": "S5_R01",
+    "realization": 1,
+    "source": "/Volumes/CuTaData/CuTa-results/runs/S5_R01/metadata/final.data",
+    "source_sha256": "be195aeafe46901b586e7af93f46c581afaf305a59e395aad03ffab12a08565b",
+    "reference_source": "/Users/hust-hwashin621m/Downloads/research_new_material/CuTa-Oscillatory-Nanoscratching-MD/results/runs/relax_laminate_R01/metadata/relaxed_structure.data",
+    "reference_source_sha256": "d1536e2cace36c30a77e64cae97cd63e5b776e28a4ef7e30f6fff8b5402c09dc",
+    "reference_state": "relaxed workpiece before scratch equilibration; not the last pre-translation frame",
+    "endpoint_step": 649207,
+    "endpoint_time_ps": 649.207,
+    "tool_atom_centroid_A": [
+      335.14560084742254,
+      77.99863944894375,
+      138.2599827075385
+    ],
+    "reference": "evidence/visualization/S5_R01_reference.dump.gz",
+    "endpoint": "evidence/visualization/S5_R01_final.dump.gz",
+    "translation_start_ps": 82.54,
+    "travel_nm": 17.00001,
+    "reference_cell_note": "Reference positions unchanged; cell includes scratch vacuum to avoid artificial top-bottom neighbors.",
+    "reference_sha256": "248fb7978d725264459e15b7161bb1415970628e45944c28fc11065e2dadee6a",
+    "endpoint_sha256": "6837dba9ff554f8d12e1525865df3f9d18de1c51a4a97576e183cb77ed4d4348",
+    "atom_ids_match": true,
+    "types_match": true,
+    "atoms_workpiece": 543778,
+    "invalid_strain_count": 0,
+    "invalid_strain_policy": "excluded from statistics; gray in strain rendering; never replaced by zero",
+    "valid_shear_mean": 0.22072369009306914,
+    "valid_fraction_above_0_3": 0.05264832339668026,
+    "cutoff_A": 3.375,
+    "section_y_A": 78.0,
+    "section_thickness_A": 30.0,
+    "strain_range": [
+      0.0,
+      1.0
+    ],
+    "morphology_output": "figures/scratch_morph_s5.png",
+    "strain_output": "figures/scratch_strain_s5.pdf",
+    "morphology_camera": {
+      "projection": "orthographic",
+      "direction": [
+        -0.4506539226259288,
+        0.6509445549041193,
+        -0.6108864284484812
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "size": [
+        1200,
+        1000
+      ],
+      "target_A": [
+        324.0,
+        78.0,
+        111.0
+      ],
+      "fov_A": 140.0,
+      "roi_x_A": [
+        180.0,
+        468.0
+      ],
+      "roi_z_min_A": 85.0,
+      "color": "neutral gray; all species identical",
+      "shadows": true,
+      "ambient_occlusion": true
+    }
+  },
+  "S6_R01": {
+    "case": "S6_R01",
+    "realization": 1,
+    "source": "/Volumes/CuTaData/CuTa-results/runs/S6_R01/metadata/final.data",
+    "source_sha256": "3b0743749233fe7a112ca1410b6485ec235f3d76a1b84d33162aa7b514022b13",
+    "reference_source": "/Users/hust-hwashin621m/Downloads/research_new_material/CuTa-Oscillatory-Nanoscratching-MD/results/runs/relax_laminate_R01/metadata/relaxed_structure.data",
+    "reference_source_sha256": "d1536e2cace36c30a77e64cae97cd63e5b776e28a4ef7e30f6fff8b5402c09dc",
+    "reference_state": "relaxed workpiece before scratch equilibration; not the last pre-translation frame",
+    "endpoint_step": 1114413,
+    "endpoint_time_ps": 1114.413,
+    "tool_atom_centroid_A": [
+      219.14574574934164,
+      77.99863944894156,
+      145.05759865694233
+    ],
+    "reference": "evidence/visualization/S6_R01_reference.dump.gz",
+    "endpoint": "evidence/visualization/S6_R01_final.dump.gz",
+    "translation_start_ps": 161.08,
+    "travel_nm": 28.59999,
+    "reference_cell_note": "Reference positions unchanged; cell includes scratch vacuum to avoid artificial top-bottom neighbors.",
+    "reference_sha256": "ccf16ae1a6f1dba4a51d9ae5cf023c6b8c602f4f4090fc37cbd2c67c2f28bc10",
+    "endpoint_sha256": "59a067a41fcc12beadb296283112022e55a0e3a2001ac0c7953869b6ce03f869",
+    "atom_ids_match": true,
+    "types_match": true,
+    "atoms_workpiece": 543778,
+    "invalid_strain_count": 0,
+    "invalid_strain_policy": "excluded from statistics; gray in strain rendering; never replaced by zero",
+    "valid_shear_mean": 0.3976594312715124,
+    "valid_fraction_above_0_3": 0.11561519590715329,
+    "cutoff_A": 3.375,
+    "section_y_A": 78.0,
+    "section_thickness_A": 30.0,
+    "strain_range": [
+      0.0,
+      1.0
+    ],
+    "morphology_output": "figures/scratch_morph_s6.png",
+    "strain_output": "figures/scratch_strain_s6.pdf",
+    "morphology_camera": {
+      "projection": "orthographic",
+      "direction": [
+        -0.4506539226259288,
+        0.6509445549041193,
+        -0.6108864284484812
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "size": [
+        1200,
+        1000
+      ],
+      "target_A": [
+        324.0,
+        78.0,
+        111.0
+      ],
+      "fov_A": 140.0,
+      "roi_x_A": [
+        180.0,
+        468.0
+      ],
+      "roi_z_min_A": 85.0,
+      "color": "neutral gray; all species identical",
+      "shadows": true,
+      "ambient_occlusion": true
+    }
+  }
+}

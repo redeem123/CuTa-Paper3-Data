@@ -1,0 +1,42 @@
+[
+  {
+    "path": "/Users/hust-hwashin621m/Downloads/research_new_material/CuTa-Oscillatory-Nanoscratching-MD/results/runs/glass_A_R01_xs78/metadata/relaxed_glass.data",
+    "sha256": "490639a862149947c13b4fefd21b24fa2a175ca8016326c81eaaafaccfcd63f4",
+    "n_atoms": 32000,
+    "box_A": [
+      78.0,
+      78.0,
+      72.19183338493916
+    ]
+  },
+  {
+    "path": "/Users/hust-hwashin621m/Downloads/research_new_material/CuTa-Oscillatory-Nanoscratching-MD/results/runs/glass_A_R02_xs78/metadata/relaxed_glass.data",
+    "sha256": "18c4f60c9b0eb1b4716b7f854d0fdd1831812355db18c858443d68df00a16cd0",
+    "n_atoms": 32000,
+    "box_A": [
+      78.0,
+      78.0,
+      72.19029319318985
+    ]
+  },
+  {
+    "path": "/Users/hust-hwashin621m/Downloads/research_new_material/CuTa-Oscillatory-Nanoscratching-MD/results/runs/glass_B_R01_xs78/metadata/relaxed_glass.data",
+    "sha256": "97612e20c27207e5b591d823dd10e2a5a03a3256c67cebbb543b31b27a42099a",
+    "n_atoms": 32000,
+    "box_A": [
+      78.0,
+      78.0,
+      92.97681563360969
+    ]
+  },
+  {
+    "path": "/Users/hust-hwashin621m/Downloads/research_new_material/CuTa-Oscillatory-Nanoscratching-MD/results/runs/glass_B_R02_xs78/metadata/relaxed_glass.data",
+    "sha256": "b378c5bdb79d19902ad8eccccc43194c05e801d885b09e6c43f56de86d1e7270",
+    "n_atoms": 32000,
+    "box_A": [
+      78.0,
+      78.0,
+      92.96030117879786
+    ]
+  }
+]

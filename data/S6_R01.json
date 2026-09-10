@@ -1,0 +1,28 @@
+{
+  "case": "S6_R01",
+  "amplitude_A": 5.0,
+  "beta": 2.0,
+  "frequency_per_ps": 0.01909859317102744,
+  "phase_offset": -19.329555921456574,
+  "source_log": "/Volumes/CuTaData/CuTa-results/runs/S6_R01/logs/lammps.log",
+  "log_sha256": "ce0dd84a4c3debda632c114bc87e9acc32775858a8d92628f197380dbfffe7f4",
+  "structure_sha256": "d1536e2cace36c30a77e64cae97cd63e5b776e28a4ef7e30f6fff8b5402c09dc",
+  "source_launch_sha256": "cb56672bebc53865581a53bb55394e35f754b6749f68626a294bb1b70b9a2567",
+  "completion_marker": "OSCILLATORY_SCRATCH_COMPLETE case=S6_R01 arm=paper alpha=0.5 beta=2.0 h0=10.0 vs=0.3 length=276.0",
+  "launch_completed": true,
+  "sine_position_max_error_A": 5.165894009451222e-06,
+  "sample_interval_ps": 0.5230000000000246,
+  "lj_parameters": {
+    "CuC": [
+      0.05477,
+      2.168,
+      5.4
+    ],
+    "TaC": [
+      0.13,
+      2.86575,
+      7.164
+    ]
+  },
+  "samples_sha256": "7b968c26e7895ccbe752bd757b977903cde334227bac42c5571befbf366211a4"
+}

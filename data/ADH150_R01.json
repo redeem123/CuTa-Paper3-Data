@@ -1,0 +1,28 @@
+{
+  "case": "ADH150_R01",
+  "amplitude_A": 2.5,
+  "beta": 2.0,
+  "frequency_per_ps": 0.03819718634205488,
+  "phase_offset": -19.80955592152455,
+  "source_log": "/Volumes/CuTaData/CuTa-results/runs/ADH150_R01/logs/lammps.log",
+  "log_sha256": "aace32dbd59d74814f3374e96a79a96f912ba920c2401a22bd834c6e8f77877f",
+  "structure_sha256": "d1536e2cace36c30a77e64cae97cd63e5b776e28a4ef7e30f6fff8b5402c09dc",
+  "source_launch_sha256": "bffdb04ed7e840d6f5840377be0a69d89debac0f66f06c594520bc4827ed1ae1",
+  "completion_marker": "OSCILLATORY_SCRATCH_COMPLETE case=ADH150_R01 arm=paper alpha=0.25 beta=2.0 h0=10.0 vs=0.3 length=160.0",
+  "launch_completed": true,
+  "sine_position_max_error_A": 5.201089010142823e-06,
+  "sample_interval_ps": 0.2609999999999957,
+  "lj_parameters": {
+    "CuC": [
+      0.082155,
+      2.168,
+      5.4
+    ],
+    "TaC": [
+      0.195,
+      2.86575,
+      7.164
+    ]
+  },
+  "samples_sha256": "106071a31ccd54edeb4c2574db2cb348fb9e9a0f25d2471784f9433c4d3d193e"
+}

@@ -1,0 +1,30 @@
+{
+  "cutoff_A": 3.2,
+  "rmsd_cutoff": 0.1,
+  "realization_1": {
+    "n_atoms_total": 543778,
+    "cryst_matches_total": 633,
+    "cryst_fraction_pct": 0.116,
+    "total_clusters": 457,
+    "single_atom_clusters": 363,
+    "single_atom_fraction_pct": 79.4,
+    "two_atom_clusters": 67,
+    "three_atom_clusters": 15,
+    "four_plus_clusters": 12,
+    "max_cluster_size_atoms": 12,
+    "max_cluster_volume_nm3": "< 0.20"
+  },
+  "realization_2": {
+    "n_atoms_total": 544324,
+    "cryst_matches_total": 563,
+    "cryst_fraction_pct": 0.103,
+    "total_clusters": 425,
+    "single_atom_clusters": 348,
+    "single_atom_fraction_pct": 81.9,
+    "two_atom_clusters": 53,
+    "three_atom_clusters": 13,
+    "four_plus_clusters": 11,
+    "max_cluster_size_atoms": 23,
+    "max_cluster_volume_nm3": "< 0.35"
+  }
+}
