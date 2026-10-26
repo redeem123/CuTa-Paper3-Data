@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-message: "Please cite this version of the data and analysis supporting Paper 3."
+message: "Please cite this version of the data and analysis supporting the accepted Paper 3 article."
 type: dataset
-title: "Cu-Ta nanoscratching data and analysis"
-version: "paper3-v1.0"
-date-released: "2026-09-10"
-url: "https://github.com/redeem123/CuTa-Paper3-Data"
+title: "Supporting data and analysis code for Deformation and force-power trade-offs in vibration-assisted nanoscratching of Cu-Ta amorphous nanolaminates"
+version: "2.0.0"
+date-released: "2026-10-26"
+url: "https://github.com/redeem123/CuTa-Paper3-Data/releases/tag/paper3-v2.0-common-wait"
 authors:
   - family-names: "Nguyen"
     given-names: "Thanh-Huan"

@@ -1,10 +1,23 @@
 # Cu-Ta nanoscratching data and analysis
 
+## Accepted-paper common-wait release
+
+The article by Thanh-Huan Nguyen, Viet-Anh Ngo and Duc-Toan Nguyen has been accepted in Materials Today Communications, production reference MTCOMM 116493.
+
+Use [paper3-v2.0-common-wait](https://github.com/redeem123/CuTa-Paper3-Data/releases/tag/paper3-v2.0-common-wait) for the accepted-paper dataset. It contains eighteen primary common-wait force histories, eighteen loaded structural stations across all six conditions in R01–R03, forty phase-sampled R02 configurations and three relaxed references. Full datasets are release ZIP assets. Versioned code, replay instructions, checksums and licensing are in [round2_common_wait_20261026](round2_common_wait_20261026/).
+
+Original v2.0.0 data are CC-BY 4.0 and original Python code is MIT. Third-party potential terms are unchanged. These grants apply to the new version only. A Zenodo archival deposit is in preparation. Its DOI will be added after publication.
+
+## Historical v1.0 artifact
+
+The [paper3-v1.0 release](https://github.com/redeem123/CuTa-Paper3-Data/releases/tag/paper3-v1.0) and its tag are preserved. Its two-preparation histories are separate from the accepted-paper common-wait dataset. The following instructions apply to that historical artifact.
+
+
 Data and analysis code supporting the manuscript **Deformation and force–power trade-offs in vibration-assisted nanoscratching of Cu–Ta amorphous nanolaminates** by Thanh-Huan Nguyen, Viet-Anh Ngo, and Duc-Toan Nguyen.
 
 Corresponding author: Duc-Toan Nguyen, toan.nguyenduc@sis.hust.edu.vn.
 
-This is the research artifact for Paper 3, not a published journal article. No journal acceptance or dataset DOI is claimed. The companion Paper 1 is still in preparation. Shared atomistic models and simulation evidence are identified through provenance records; this repository supports Paper 3's stroke-resolved force and mechanical input analysis.
+The sections below describe the historical two-preparation v1.0 artifact. The accepted-paper common-wait release is linked above. The companion Paper 1 is still in preparation. Shared atomistic models and simulation evidence are identified through provenance records; this repository supports Paper 3's stroke-resolved force and mechanical input analysis.
 
 ## What is included
 
@@ -44,7 +57,7 @@ The twelve primary force series can be checked against the archived executed log
 
 ## Version and citation
 
-Use release `paper3-v1.0` when referring to the evidence accompanying the submission. Cite the authors, repository title, release version, year 2026 and the release URL. `CITATION.cff` supplies machine-readable citation metadata. A DOI may be added later if an archival service becomes available.
+Use release `paper3-v1.0` only when referring to the original two-preparation submission evidence. Cite the authors, repository title, release version, year 2026 and the release URL. The historical v1.0 tag retains its original citation metadata. The current root `CITATION.cff` describes version 2.0.0.
 
 Public availability does not by itself assign a permissive reuse license. No additional license grant is asserted in this release. Contact the corresponding author for reuse permissions beyond those otherwise available.
 
