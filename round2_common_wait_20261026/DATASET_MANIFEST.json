@@ -1,0 +1,215 @@
+{
+  "title": "Supporting data and analysis code for Deformation and force–power trade-offs in vibration-assisted nanoscratching of Cu–Ta amorphous nanolaminates",
+  "version": "2.0.0",
+  "release_tag": "paper3-v2.0-common-wait",
+  "authors": [
+    "Thanh-Huan Nguyen",
+    "Viet-Anh Ngo",
+    "Duc-Toan Nguyen"
+  ],
+  "journal": "Materials Today Communications",
+  "production_reference": "MTCOMM 116493",
+  "article_reference": "MTCOMM-D-26-06328",
+  "datasets": [
+    {
+      "filename": "supplementary_data_mechanics.zip",
+      "bytes": 8358694,
+      "sha256": "cdde638fbf0d8ad0874bd17e5b2bc31038fc31458e318c724e916e54f7a83473",
+      "md5": "fe1a29da62368772424512ce0f5b8757",
+      "files": 95,
+      "scripts": [
+        "analysis_code/analyze_common_wait_round2.py",
+        "analysis_code/extend_common_wait_R01.py",
+        "analysis_code/primary_reference.py",
+        "analysis_code/reduce_new_md.py",
+        "analysis_code/render_common_wait_round2.py",
+        "provenance/executed_source/extend_common_wait_R01.py",
+        "replay_round2_data.py",
+        "replay_sensitivity_controls.py"
+      ]
+    },
+    {
+      "filename": "supplementary_data_structure.zip",
+      "bytes": 1393302775,
+      "sha256": "ed35ab54ba089e59701d4518f12258d4e19b18bb61e2ad895ff16e61379f2e5d",
+      "md5": "cceb4d697afe8bda88345583bb721e0a",
+      "files": 122,
+      "scripts": [
+        "analysis_code/analyze_common_wait_structure.py",
+        "analysis_code/common_wait_structure_kernel.py",
+        "analysis_code/prepare_common_wait_structure.py",
+        "analysis_code/report_common_wait_structure.py",
+        "analysis_code/render_common_wait_atomic.py",
+        "analysis_code/compose_common_wait_views.py",
+        "analysis_code/extend_common_wait_R01.py",
+        "replay_structure_data.py"
+      ]
+    }
+  ],
+  "code_files": [
+    {
+      "path": "round2_common_wait_20261026/mechanics/README.txt",
+      "archive": "supplementary_data_mechanics.zip",
+      "member": "README.txt",
+      "sha256": "9e41d4f4ec3e54ffe42c368d3e8555196cf2575e307ea07d4cf9f3e437003f85",
+      "bytes": 2409
+    },
+    {
+      "path": "round2_common_wait_20261026/mechanics/analysis_code/analyze_common_wait_round2.py",
+      "archive": "supplementary_data_mechanics.zip",
+      "member": "analysis_code/analyze_common_wait_round2.py",
+      "sha256": "65aa2c41c658c3717bb2ed1ae79f5af9e6f0f74e92d08f2528bda21798fd8ce4",
+      "bytes": 11783
+    },
+    {
+      "path": "round2_common_wait_20261026/mechanics/analysis_code/extend_common_wait_R01.py",
+      "archive": "supplementary_data_mechanics.zip",
+      "member": "analysis_code/extend_common_wait_R01.py",
+      "sha256": "0aa208f94a22bef2852ebc68efe74c66a69024a7b91091b7c586366d4867c6ad",
+      "bytes": 12101
+    },
+    {
+      "path": "round2_common_wait_20261026/mechanics/analysis_code/primary_reference.py",
+      "archive": "supplementary_data_mechanics.zip",
+      "member": "analysis_code/primary_reference.py",
+      "sha256": "72810c7ea922a6a19a945a78fc8ba4aa866de34d47557bed9d2e7794a053ab56",
+      "bytes": 9280
+    },
+    {
+      "path": "round2_common_wait_20261026/mechanics/analysis_code/reduce_new_md.py",
+      "archive": "supplementary_data_mechanics.zip",
+      "member": "analysis_code/reduce_new_md.py",
+      "sha256": "3f1452821babf0efad80c936323c3fcc2b789a43ef58faac416fe6cb1893a776",
+      "bytes": 5707
+    },
+    {
+      "path": "round2_common_wait_20261026/mechanics/analysis_code/render_common_wait_round2.py",
+      "archive": "supplementary_data_mechanics.zip",
+      "member": "analysis_code/render_common_wait_round2.py",
+      "sha256": "6d89051482cd49902b766b9a89352877efc873c5b9df3b9541b4ee2b7a74d5e2",
+      "bytes": 17989
+    },
+    {
+      "path": "round2_common_wait_20261026/mechanics/provenance/executed_source/extend_common_wait_R01.py",
+      "archive": "supplementary_data_mechanics.zip",
+      "member": "provenance/executed_source/extend_common_wait_R01.py",
+      "sha256": "5b58d8171e0b1d9cf7da9a9c6e967d8bd7fdb8032a958070c8c9ad1da62de8e0",
+      "bytes": 12080
+    },
+    {
+      "path": "round2_common_wait_20261026/mechanics/replay_round2_data.py",
+      "archive": "supplementary_data_mechanics.zip",
+      "member": "replay_round2_data.py",
+      "sha256": "74beb1a68102d70c38a4bfbc8d8b694878a17ea51ce3116a8679e8d75a8343e5",
+      "bytes": 5677
+    },
+    {
+      "path": "round2_common_wait_20261026/mechanics/replay_sensitivity_controls.py",
+      "archive": "supplementary_data_mechanics.zip",
+      "member": "replay_sensitivity_controls.py",
+      "sha256": "51b9f53a075d5eca1aa2eb9b3a4f7acd09a13b4322ba6e484cfbae7cd267bd93",
+      "bytes": 2181
+    },
+    {
+      "path": "round2_common_wait_20261026/mechanics/requirements.txt",
+      "archive": "supplementary_data_mechanics.zip",
+      "member": "requirements.txt",
+      "sha256": "5b2cb9b4f90d42c6319a111084c13e0e9f6d310863a9633be50af2e8d07a3e95",
+      "bytes": 23
+    },
+    {
+      "path": "round2_common_wait_20261026/mechanics/MANIFEST.json",
+      "archive": "supplementary_data_mechanics.zip",
+      "member": "MANIFEST.json",
+      "sha256": "a931f801f7120a885ab9c20023b1535cdb3c6613dbbaeedd7ad9eba480726b9c",
+      "bytes": 14497
+    },
+    {
+      "path": "round2_common_wait_20261026/structure/requirements.txt",
+      "archive": "supplementary_data_structure.zip",
+      "member": "requirements.txt",
+      "sha256": "1e6a7f3f06c2f51dcd827986a51befdba7e693bbd0c23dc072b9af4baff62d3d",
+      "bytes": 41
+    },
+    {
+      "path": "round2_common_wait_20261026/structure/analysis_code/analyze_common_wait_structure.py",
+      "archive": "supplementary_data_structure.zip",
+      "member": "analysis_code/analyze_common_wait_structure.py",
+      "sha256": "312e075f772c2b2894c5303462216d7e62ecb4c7d3ba29afd8602ebc4e5bc1ae",
+      "bytes": 9658
+    },
+    {
+      "path": "round2_common_wait_20261026/structure/analysis_code/common_wait_structure_kernel.py",
+      "archive": "supplementary_data_structure.zip",
+      "member": "analysis_code/common_wait_structure_kernel.py",
+      "sha256": "a72cff6686b966d1f02d0c6b8870902bf04070b27043579dc33a17290d149e63",
+      "bytes": 6085
+    },
+    {
+      "path": "round2_common_wait_20261026/structure/analysis_code/prepare_common_wait_structure.py",
+      "archive": "supplementary_data_structure.zip",
+      "member": "analysis_code/prepare_common_wait_structure.py",
+      "sha256": "08329a720275973169db26747b2358aa1207e8f0669f26d40f095e34fb07265b",
+      "bytes": 8757
+    },
+    {
+      "path": "round2_common_wait_20261026/structure/analysis_code/report_common_wait_structure.py",
+      "archive": "supplementary_data_structure.zip",
+      "member": "analysis_code/report_common_wait_structure.py",
+      "sha256": "84325dae31f68848601c5e5abd63b90d693a3ab8757706c06fcca581befcbd8d",
+      "bytes": 9618
+    },
+    {
+      "path": "round2_common_wait_20261026/structure/analysis_code/render_common_wait_atomic.py",
+      "archive": "supplementary_data_structure.zip",
+      "member": "analysis_code/render_common_wait_atomic.py",
+      "sha256": "6a9fb4731aa8aa379c8b78ee2fcb2573739e316a30606657c5253534b60870e4",
+      "bytes": 5020
+    },
+    {
+      "path": "round2_common_wait_20261026/structure/analysis_code/compose_common_wait_views.py",
+      "archive": "supplementary_data_structure.zip",
+      "member": "analysis_code/compose_common_wait_views.py",
+      "sha256": "2a3da6d00b74f2befe7a06da4b6cd795167f48f73945cdf7ecd1f508f4e1e518",
+      "bytes": 2314
+    },
+    {
+      "path": "round2_common_wait_20261026/structure/analysis_code/extend_common_wait_R01.py",
+      "archive": "supplementary_data_structure.zip",
+      "member": "analysis_code/extend_common_wait_R01.py",
+      "sha256": "0aa208f94a22bef2852ebc68efe74c66a69024a7b91091b7c586366d4867c6ad",
+      "bytes": 12101
+    },
+    {
+      "path": "round2_common_wait_20261026/structure/replay_structure_data.py",
+      "archive": "supplementary_data_structure.zip",
+      "member": "replay_structure_data.py",
+      "sha256": "a93052a2f96e8867915916a7c6b62312f8490ae3c9c93918d487fe84ced4aecf",
+      "bytes": 3493
+    },
+    {
+      "path": "round2_common_wait_20261026/structure/README.txt",
+      "archive": "supplementary_data_structure.zip",
+      "member": "README.txt",
+      "sha256": "9c25ebee0f51b22c8112e2f40f218aef720854b7c7e0f53b3e7320aa5a789f01",
+      "bytes": 2535
+    },
+    {
+      "path": "round2_common_wait_20261026/structure/MANIFEST.json",
+      "archive": "supplementary_data_structure.zip",
+      "member": "MANIFEST.json",
+      "sha256": "6bc7b1c85d008ce22be63eacdf088d626bcbb2b836eab193bf2c7c2a168f3c32",
+      "bytes": 19924
+    }
+  ],
+  "zenodo_record": 23660777,
+  "zenodo_DOI_reserved": "10.5281/zenodo.23660777",
+  "zenodo_status": "draft; DOI not yet registered",
+  "historical_release": "https://github.com/redeem123/CuTa-Paper3-Data/releases/tag/paper3-v1.0",
+  "licenses": {
+    "original_data_metadata_documentation": "CC-BY-4.0",
+    "original_python_code": "MIT",
+    "third_party_exception": "structure archive potential/CuTa_LJ15_2014.adp.txt retains original terms; no new grant",
+    "scope": "version 2.0.0 only"
+  }
+}
