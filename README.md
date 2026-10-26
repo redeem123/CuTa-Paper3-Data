@@ -6,7 +6,7 @@ The article by Thanh-Huan Nguyen, Viet-Anh Ngo and Duc-Toan Nguyen has been acce
 
 Use [paper3-v2.0-common-wait](https://github.com/redeem123/CuTa-Paper3-Data/releases/tag/paper3-v2.0-common-wait) for the accepted-paper dataset. It contains eighteen primary common-wait force histories, eighteen loaded structural stations across all six conditions in R01–R03, forty phase-sampled R02 configurations and three relaxed references. Full datasets are release ZIP assets. Versioned code, replay instructions, checksums and licensing are in [round2_common_wait_20261026](round2_common_wait_20261026/).
 
-Original v2.0.0 data are CC-BY 4.0 and original Python code is MIT. Third-party potential terms are unchanged. These grants apply to the new version only. A Zenodo archival deposit is in preparation. Its DOI will be added after publication.
+Original v2.0.0 data are CC-BY 4.0 and original Python code is MIT. Third-party potential terms are unchanged. These grants apply to the new version only. The archival dataset is available at [10.5281/zenodo.23660777](https://doi.org/10.5281/zenodo.23660777). Zenodo provides Data 2 as eleven standard ZIP parts with the same file payloads as the single GitHub ZIP. See [extraction instructions](round2_common_wait_20261026/ZENODO_DATA_README.md).
 
 ## Historical v1.0 artifact
 

@@ -204,12 +204,17 @@
   ],
   "zenodo_record": 23660777,
   "zenodo_DOI_reserved": "10.5281/zenodo.23660777",
-  "zenodo_status": "draft; DOI not yet registered",
   "historical_release": "https://github.com/redeem123/CuTa-Paper3-Data/releases/tag/paper3-v1.0",
   "licenses": {
     "original_data_metadata_documentation": "CC-BY-4.0",
     "original_python_code": "MIT",
     "third_party_exception": "structure archive potential/CuTa_LJ15_2014.adp.txt retains original terms; no new grant",
     "scope": "version 2.0.0 only"
-  }
+  },
+  "zenodo_status_at_initial_GitHub_release": "draft; DOI not yet registered",
+  "zenodo_status": "published",
+  "zenodo_DOI": "10.5281/zenodo.23660777",
+  "zenodo_record_url": "https://zenodo.org/records/23660777",
+  "zenodo_archive_structure": "Data 1 master ZIP plus Data 2 eleven standard ZIP parts; exact identity of all122 Data2 file payloads verified",
+  "zenodo_structure_parts_manifest": "ZENODO_PARTS_MANIFEST.json"
 }

@@ -1,0 +1,76 @@
+{
+  "status": "UPLOAD_PARTS_PAYLOAD_IDENTICAL_TO_VERIFIED_MASTER",
+  "master_sha256": "ed35ab54ba089e59701d4518f12258d4e19b18bb61e2ad895ff16e61379f2e5d",
+  "maximum_local_part_bytes": 140000000,
+  "parts": [
+    {
+      "file": "supplementary_data_structure_part01.zip",
+      "bytes": 134514986,
+      "sha256": "99b75104f97778ba38e44554b0f1c8cbb517b3ebe7e1a6ebceb5b3d9fe9c7416",
+      "entries": 8
+    },
+    {
+      "file": "supplementary_data_structure_part02.zip",
+      "bytes": 134523092,
+      "sha256": "ed1c16c85c13377662c68c98a8a1a047a8e56dc604900687339e47e9dc014781",
+      "entries": 8
+    },
+    {
+      "file": "supplementary_data_structure_part03.zip",
+      "bytes": 134527163,
+      "sha256": "2e1c5639e17bd840d71c3b3a5663f3e3322cbe01be06ae057e851ca8065c7b1a",
+      "entries": 8
+    },
+    {
+      "file": "supplementary_data_structure_part04.zip",
+      "bytes": 134542675,
+      "sha256": "8e01f46f3a9eac6bc8bf942b7f6fe7922728d859d10f5ba709ba23d5f36544c6",
+      "entries": 8
+    },
+    {
+      "file": "supplementary_data_structure_part05.zip",
+      "bytes": 125569737,
+      "sha256": "2fa648335aec01f82c65483d86ac07092e3e31dac84ca35c2ca3444018886cb5",
+      "entries": 4
+    },
+    {
+      "file": "supplementary_data_structure_part06.zip",
+      "bytes": 125615397,
+      "sha256": "deaa6bd2a212d94a07b1b606e9cc1f3e1e526edc3559f1cc05c5b5b0e85ed6cc",
+      "entries": 4
+    },
+    {
+      "file": "supplementary_data_structure_part07.zip",
+      "bytes": 124272410,
+      "sha256": "717e3ebe77ba25db0ef3a46ccee00592b4ae1eb45fa453f10c2e0830f0c60fc0",
+      "entries": 4
+    },
+    {
+      "file": "supplementary_data_structure_part08.zip",
+      "bytes": 125640839,
+      "sha256": "a0c266515b7e83cc8676cd520fc36885249a382a3562903fa99e6c43af5d9949",
+      "entries": 4
+    },
+    {
+      "file": "supplementary_data_structure_part09.zip",
+      "bytes": 125074480,
+      "sha256": "95de8e0998fb2d3d14c7b6304aeb7ebd5ecfc337811a25231d6a2335f435dd67",
+      "entries": 5
+    },
+    {
+      "file": "supplementary_data_structure_part10.zip",
+      "bytes": 116380491,
+      "sha256": "d2217f9e6c41772daf13834033501b0d3d4ed689bd53a945e214c0965c401c67",
+      "entries": 24
+    },
+    {
+      "file": "supplementary_data_structure_part11.zip",
+      "bytes": 112639305,
+      "sha256": "b567ca6eca7d281acc8c7bbed0e98aa34eac339d27c895658c04de7eb2f251d1",
+      "entries": 45
+    }
+  ],
+  "total_parts": 11,
+  "files": 122,
+  "instructions": "Use either the complete master OR all standard ZIP parts. Extract every part into the same new directory; then use README.txt. These are independent ZIPs, not binary fragments. No portal limit or acceptance has been verified."
+}

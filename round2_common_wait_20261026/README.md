@@ -6,9 +6,9 @@ The present evidence covers eighteen primary force histories and eighteen loaded
 
 ## Obtain the complete datasets
 
-Download the two complete data archives from [release paper3-v2.0-common-wait](https://github.com/redeem123/CuTa-Paper3-Data/releases/tag/paper3-v2.0-common-wait). A Zenodo archival deposit is being prepared and will be linked when published. `DATASET_MANIFEST.json` records their exact filenames, byte counts and SHA-256 values. The `.py` files shown here are byte-identical copies from those archives, published for code inspection. This Git directory alone does not contain the coordinate/force datasets needed for replay.
+Download the two complete data archives from [release paper3-v2.0-common-wait](https://github.com/redeem123/CuTa-Paper3-Data/releases/tag/paper3-v2.0-common-wait). The archival dataset is available at [10.5281/zenodo.23660777](https://doi.org/10.5281/zenodo.23660777). Its Data 2 consists of eleven standard ZIP parts containing the same file payloads as the single GitHub ZIP. See [ZENODO_DATA_README.md](ZENODO_DATA_README.md). `DATASET_MANIFEST.json` records their exact filenames, byte counts and SHA-256 values. The `.py` files shown here are byte-identical copies from those archives, published for code inspection. This Git directory alone does not contain the coordinate/force datasets needed for replay.
 
-Extract each ZIP into its own new directory and follow its `README.txt`. Do not combine the mechanics and structure ZIP contents in one directory.
+Keep Data 1 and Data 2 in separate new directories. For the two complete GitHub ZIPs, extract each archive into its corresponding directory. For Zenodo, extract all eleven Data 2 parts into the same Data 2 directory. Then follow the README.txt in each dataset.
 
 - Data 1, `supplementary_data_mechanics.zip`: eighteen force histories, source logs, preparation/run metadata, reported reductions, portable mechanical replay and separate sensitivity replay.
 - Data 2, `supplementary_data_structure.zip`: eighteen station configurations, forty phase configurations, three relaxed references, retained potential, structural/contact results, original verification logs and portable replay.
